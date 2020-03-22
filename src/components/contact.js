@@ -18,26 +18,26 @@ export class contact extends Component {
       // </form>
       // </div>
       <div>
-<form name="contact" method="POST" data-netlify="true">
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>   
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Your Role: <select name="role[]" multiple>
-      <option value="leader">Leader</option>
-      <option value="follower">Follower</option>
-    </select></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
+							<form action="POST" data-netlify="true">
+								<div class="fields">
+									<div class="field half">
+										<input type="text" name="name" id="name" placeholder="Name" />
+									</div>
+									<div class="field half">
+										<input type="email" name="email" id="email" placeholder="Email" />
+									</div>
+									<div class="field">
+										<textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
+									</div>
+									<div class="field">
+										<input type="file" name="myfile" id="myfile" placeholder="upload file" rows="7"/>
+									</div>
+								</div>
+								<div data-netlify-recaptcha> </div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" class="button primary" /></li>
+								</ul>
+							</form>
       </div>
     )
   }
