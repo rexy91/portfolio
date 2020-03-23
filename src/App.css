@@ -226,6 +226,17 @@
       margin-bottom: 16px;
 }
 
+#contactForm input[type=email]{     
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 6px;
+  /* !!!! Can be resized to screen  */
+  resize: both;
+  margin-bottom: 16px;
+}
+
 #contactForm h3 {
     text-align: center;
 }
@@ -238,6 +249,8 @@
       border: none;
       border-radius: 5px;
 }
+
+
 /* contactForm Div  */
 #contactformdiv{
   border-radius: 20px;
@@ -382,4 +395,5 @@
     margin: 0 0 0 0 !important;
   }
 }
+
 
