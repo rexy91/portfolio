@@ -22,7 +22,7 @@ export class aboutpage extends Component {
                                         
                                     </div>
                                     <div className = 'sixteen wide mobile twelve wide computer column ' id = 'aboutSecondColumn' >  
-                                            <h2>Skills</h2>
+                                            <h2>Skillsdfsdfsdf</h2>
                                             <div>
                                             <img src="https://img.icons8.com/ios-filled/50/000000/javascript-logo.png"/>
                                             <img src="https://img.icons8.com/ios-glyphs/64/000000/react.png"/>
