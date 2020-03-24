@@ -3,7 +3,7 @@ import rails from '../projectPhotos/rails.jpg'
 export class aboutpage extends Component {
     render() {
         return (
-            <div className = 'ui fluid container'>
+            <div className = 'ui fluid container'> 
                 {/* first grid  */}
                         <div className = 'ui grid'>
                                 <div className = 'twelve wide row '>
