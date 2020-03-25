@@ -17,7 +17,7 @@ class Landing extends Component {
             <hr/>
             <br/>
           {/* <p>React | Redux | JavaScript | Ruby | Rails | Bootstrap | Css | Git | HTML</p> */}
-        <p>Passionate about coding and problem solving. Possess strong skills in collaborating with team and pair-programming. Seeks to establish a career as Full Stack Developer and keep on learning.</p>
+        <p>Passionate about coding and problem solving. Possess strong skills in collaborating with team and pair-programming. Seeks to establish opportunities to keep on learning.</p>
         
         <div className="social-links">
 

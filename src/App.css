@@ -19,6 +19,14 @@
   /* height: 100vh; */
 }
 
+#landingPage{
+  text-align: center;
+  height: 100vh;
+  background: linear-gradient(to right, #141414, #5e5757, #656466); 
+  /* background-size: cover; */
+}
+
+
 .avatar-img {
   height: 250px;
   padding-top: 5em;
@@ -35,7 +43,7 @@
 .banner-text h2 {
   /* font-size: 66px; */
   font-weight: bold;
-  font-size: 5vw;
+  font-size: 4vw;
   color: white;
 }
 
@@ -54,12 +62,14 @@
 .banner-text p {
   /* justify-content: center; */
   /* width: 50%; */
+  width: 60%;
   text-align: center;
-  margin-left:  10%;
-  margin-right: 10%;
+  margin-left:  20%;
+  /* margin-right: 5vw; */
+  line-height: 1.5;
   color: white;
-  font-size: 1.5vw;
-  /* font-size: 20px; */
+  /* font-size: 1.5vw; */
+  font-size: 20px;
 }
 
 .material-icons {
@@ -80,17 +90,51 @@
 }
 
 .social-links {
+  margin-top: 10vh;
   display: flex;
   justify-content: space-between;
   margin: auto;
 }
 
 .social-links i {
+  margin-top: 10vh;
   color: white;
   font-size: 3em;
   padding: 8px;
 }
 
+
+/* Anything above 758 width apply these: */
+
+@media(min-width:758px){
+  #landingPage{
+    height:100%
+  }
+}
+@media(max-width:758px){
+  .banner-text p{
+    font-size: 10px;
+  }
+}
+
+@media(max-width:414px){
+  .banner-text p {
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 415px) and (max-width:1024px) {
+  .banner-text p { 
+    font-size: 25px;
+  }
+}
+
+
+@media(min-width:482px){
+  .social-links{
+    width: 50%;
+  }
+}
 
 /* project page */
 .projects-grid {
@@ -103,10 +147,6 @@
   color: white;
   padding: 2em;
 }
-
-
-
-
 
 /* contact page css */
 
@@ -410,24 +450,5 @@
   }
 }
 
-#landingPage{
-  text-align: center;
-  height: 100vh;
-  background: linear-gradient(to right, #141414, #5e5757, #656466); 
-  /* background-size: cover; */
-}
 
-/* Anything above 758 width apply these: */
-
-@media(min-width:758px){
-  #landingPage{
-    height:100%
-  }
-}
-
-@media(min-width:482px){
-  .social-links{
-    width: 50%;
-  }
-}
 
