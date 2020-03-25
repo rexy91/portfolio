@@ -8,11 +8,13 @@ import Resume from './resume';
 import aboutpage from './aboutpage'
 import Blog from './Blog'
 import newhome from './newhome'
+import newLanding from './newLanding'
 
 const Main = () => (
 
   <Switch>
-    <Route exact path="/" component={LandingPage} />
+    {/* <Route exact path="/" component={LandingPage} /> */}
+    <Route exact path ='/' component = {newLanding}/>
     <Route exact path = '/blog' component={Blog}/>
     <Route path="/aboutme" component={aboutpage} />
     <Route path="/contact" component={Contact} />

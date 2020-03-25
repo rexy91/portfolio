@@ -35,6 +35,7 @@
 .banner-text h2 {
   /* font-size: 66px; */
   font-weight: bold;
+  font-size: 5vw;
   color: white;
 }
 
@@ -57,8 +58,8 @@
   margin-left:  10%;
   margin-right: 10%;
   color: white;
-  font-size: 20px;
-
+  font-size: 1.5vw;
+  /* font-size: 20px; */
 }
 
 .material-icons {
@@ -81,7 +82,6 @@
 .social-links {
   display: flex;
   justify-content: space-between;
-  width: 50%;
   margin: auto;
 }
 
@@ -410,5 +410,24 @@
   }
 }
 
+#landingPage{
+  text-align: center;
+  height: 100vh;
+  background: linear-gradient(to right, #141414, #5e5757, #656466); 
+  /* background-size: cover; */
+}
 
+/* Anything above 758 width apply these: */
+
+@media(min-width:758px){
+  #landingPage{
+    height:100%
+  }
+}
+
+@media(min-width:482px){
+  .social-links{
+    width: 50%;
+  }
+}
 
