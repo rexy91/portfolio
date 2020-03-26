@@ -5,7 +5,7 @@ import LandingPage from './landingpage';
 import AboutMe from './aboutme';
 import Contact from './contact';
 import Projects from './projects';
-import Resume from './resume';
+// import Resume from './resume';
 import aboutpage from './aboutpage'
 import Blog from './Blog'
 
@@ -18,7 +18,7 @@ const Main = () => (
     <Route path="/aboutme" component={aboutpage} />
     <Route path="/contact" component={Contact} />
     <Route path="/projects" component={Projects} />
-    <Route path="/resume" component={Resume} />
+    {/* <Route path="/resume" component={Resume} /> */}
   </Switch>
   
   
