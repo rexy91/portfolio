@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import ReactTooltip from 'react-tooltip'
 
 export class newLanding extends Component {
     render() {
@@ -20,24 +21,37 @@ export class newLanding extends Component {
         <div className="social-links">
 
           {/* LinkedIn */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-linkedin-square" aria-hidden="true" />
+          <a href="https://www.linkedin.com/in/rex-ye-b58703193/" rel="noopener noreferrer" target="_blank">
+            <i className="fa fa-linkedin-square" aria-hidden="true" data-tip data-for="linkIn" />
           </a>
+          <ReactTooltip id='linkIn'>
+              <span>linkIn Profile</span>
+          </ReactTooltip>
 
           {/* Github */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-github-square" aria-hidden="true" />
+          <a href="https://github.com/rexy91" rel="noopener noreferrer" target="_blank">
+            <i className="fa fa-github-square" aria-hidden="true" data-tip data-for="github"/>
           </a>
+          <ReactTooltip id='github'>
+              <span>Github Profile</span>
+          </ReactTooltip>
 
           {/* Freecodecamp */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fab fa-instagram" aria-hidden="true" />
-          </a>
 
-          {/* Youtube */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fab fa-medium" aria-hidden="true" />
+          <a href="https://www.instagram.com/yuhoick/?hl=enm" rel="noopener noreferrer" target="_blank">
+            <i className="fa fab fa-instagram" aria-hidden="true" data-tip data-for ="instagram"/>
           </a>
+          <ReactTooltip id='instagram'>
+              <span>instagram</span>
+          </ReactTooltip>
+
+          {/* Medium */}
+          <a href="https://medium.com/@rxye91" rel="noopener noreferrer" target="_blank" >
+            <i className="fa fab fa-medium" aria-hidden="true" data-tip data-for ='mediumIcon'/>
+          </a>
+          <ReactTooltip id='mediumIcon'>
+              <span>Medium Profile</span>
+          </ReactTooltip>
 
         </div>
         </div>
