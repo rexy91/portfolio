@@ -31,12 +31,12 @@ export class newLanding extends Component {
 
           {/* Freecodecamp */}
           <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-free-code-camp" aria-hidden="true" />
+            <i className="fa fab fa-instagram" aria-hidden="true" />
           </a>
 
           {/* Youtube */}
           <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-youtube-square" aria-hidden="true" />
+            <i className="fa fab fa-medium" aria-hidden="true" />
           </a>
 
         </div>
