@@ -1,4 +1,3 @@
-
 import React, { Component } from 'react'
 
 export class contact extends Component {
@@ -24,4 +23,4 @@ export class contact extends Component {
   }
 }
 
-export default 
+export default contact
