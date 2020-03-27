@@ -190,6 +190,16 @@
       resize: both;
       margin-bottom: 16px;
 }
+#contactForm input[type=email], #contactForm textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 6px;
+  /* !!!! Can be resized to screen  */
+  resize: both;
+  margin-bottom: 16px;
+}
 
 #contactForm h3 {
     text-align: center;
