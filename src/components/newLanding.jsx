@@ -1,12 +1,14 @@
 import React, { Component } from 'react'
 import ReactTooltip from 'react-tooltip'
+import landingicon from '../projectPhotos/landingicon.jpg'
 
 export class newLanding extends Component {
     render() {
         return (
             <div className = "ui fluid container" id = "landingPage">
                     <img style = {{marginBottom:'3%'}}
-                    src = 'https://www.flaticon.com/premium-icon/icons/svg/1713/1713968.svg'
+                    // src = 'https://www.flaticon.com/premium-icon/icons/svg/1713/1713968.svg'
+                    src = {landingicon}
                     alt="avatar"
                     className="avatar-img"
                     />
