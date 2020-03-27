@@ -68,8 +68,8 @@ class Projects extends Component {
 
   renderCard1Front = () => {
 
-      return     <Card className = 'cardFront' id ='virtualBankFront' onMouseEnter = {this.hoverCardOne1} shadow={5} style={{minWidth: '450', width:"70vw",height:'60vh', margin:'auto', marginBottom:'7vh'}}>
-                      <CardTitle  className = 'projectFront' style={{color: '#fff',height:'450px', backgroundImage: "url(" + bank +")"}} ></CardTitle>
+      return     <Card className = 'cardFront' id ='virtualBankFront' onMouseEnter = {this.hoverCardOne1} shadow={5} style={{  margin:'auto', marginBottom:'7vh'}}>
+                      {/* <CardTitle  className = 'projectFront' style={{color: '#fff',height:'450px', backgroundImage: "url(" + bank +")"}} ></CardTitle>
                       <CardText style={{textAlign:'center',padding:'5%', marginLeft:'4vw'}}>
                       A full-stack web based banking application using React and Rails, allows users to sign up for a virtual bank account and perform some transactions, such as transfering funds, making deposit and withdrawal.
                       </CardText>
@@ -80,148 +80,188 @@ class Projects extends Component {
                       </CardActions>
                       <CardMenu style={{color: '#fff'}}>
                         <IconButton name="share" />
-                      </CardMenu>
+                      </CardMenu> */}
+                      <img style={{width:'100%', height:'90%'}}src={bank}></img>
+                      <CardText style={{textAlign:'center', marginLeft:'4vw'}}>
+                      A full-stack web based banking application using React and Rails, allows users to sign up for a virtual bank account and perform some transactions, such as transfering funds, making deposit and withdrawal.
+                      </CardText>
+                      <CardActions style={{textAlign:'center'}}border>
+                        <Button name = 'bank' id ='zzz' name = 'bankGithub' onClick = {this.openLink} colored>GitHub</Button>
+                        <Button colored></Button>
+                        <Button name = 'bank' onClick = {this.openLink} colored>Live Demo</Button>
+                      </CardActions>
                     </Card>
       
 }
-  renderCard1Back = () => {
 
-    return     <Card className = 'cardBack'  id = 'virtualBankBack' onMouseLeave = {this.hoverCardOne1}  shadow={5} style={{minWidth: '450', width:"70vw",height:'60vh', margin:'auto', marginBottom:'7vh'}}>
-                <Grid className = 'projectBack' >
-                  <Cell col = {12}><h4>Flatiron Virtual Bank</h4></Cell>
-                  <Cell  col ={6}>
-                          <h5>Frontend</h5>
-                          <p>React</p>
-                          <p>Redux</p>
-                          <p>JavaScript</p>
-                          <p>SemanticUI</p>
-                          <p>chartJS</p>
-                          <p>MDBReact</p>
-                  </Cell>
-                  <Cell col ={6}>
-                          <h5>Backend</h5>
-                          <p>Ruby on Rails</p>
-                          <p>Action Mailer</p>
-                          <p>JWT Auth</p>
-                          <p>PostgreSQL</p>
-                  </Cell>
-                </Grid>
-                    <CardActions  style={{textAlign:'center', cursor:'pointer'}}>
-                    <Button  name = 'bank' onClick = {this.openLink} colored>GitHub</Button>
-                    <Button colored></Button>
-                    <Button  name = 'bank' onClick = {this.openLink} colored>Live Demo</Button>
-                    </CardActions>
+  renderCard1Back = () => {
+                  return <Card className='cardBack' shadow={5} onMouseLeave = {this.hoverCardOne1}  shadow={5} style={{minWidth: '450', margin:'auto', marginBottom:'7vh'}}>
+                                    
+                  <div className='projectBack'>
+                      <div className = 'ui grid'>
+                            <div className = 'sixteen wide column' style={{border: 'solid 1px white', marginTop:'2vh'}}>
+                                  <h3>Flatiron Virtual Bank</h3>
+                            </div>
+                            <div className = 'eight wide column' style={{border: 'solid 1px white'}}>
+                                  <h4>Frontend</h4>
+                            </div>
+                            <div className = 'eight wide column' style={{border: 'solid 1px white'}}>
+                                  <h4>Backend</h4>
+                            </div>    
+                            <div className = 'eight wide column'>
+                                  <h6>React</h6>
+                                  <h6>Redux</h6>
+                                  <h6>JavaScript</h6>
+                                  <h6>Semantic UI</h6>
+                                  <h6>MDB React</h6>
+                                  <h6>Chart JS</h6>
+                            </div>
+                            <div className = 'eight wide column'>
+
+                                  <h6>Ruby On Rails</h6>
+                                  <h6>JWT Auth</h6>
+                                  <h6>Action Mailer</h6>
+                                  <h6>PostgreSQL</h6>
+                        </div>    
+                  </div>
+              </div>
+              <CardActions  style={{textAlign:'center', cursor:'pointer'}}>
+                        <Button name = 'bank' onClick = {this.openLink} colored>GitHub</Button>
+                        <Button colored></Button>
+                        <Button name = 'bank' onClick = {this.openLink} colored>Live Demo</Button>
+                        </CardActions>
               </Card>
   }
 
   renderCard2Front = () => {
-    return     <Card className='cardFront' onMouseEnter = {this.hoverCardOne2} shadow={5} style={{minWidth: '450', width:"70vw",height:'60vh', margin:'auto', marginBottom:'7vh'}}>
-                  <CardTitle  className = 'projectFront' style={{color: '#fff', height: '350px',backgroundImage: "url(" + yourteamtime +")"}} ></CardTitle>
-                  <CardText style={{textAlign:'center', padding:'5%', marginLeft:'4vw'}}>
-                  A full-stack web application designed to be used by managers. A manager will be able to add/delete companies and employees, create a weekly schedule for the employees which belongs to a particular company that they manage.
-                  </CardText>
-                  <CardActions style={{textAlign:'center'}}  border>
+    return     <Card className='cardFront' onMouseEnter = {this.hoverCardOne2} shadow={5} style={{  margin:'auto',marginBottom:'7vh'}}>
+    {/* <CardTitle  className = 'projectFront' style={{color: '#fff',height:'450px', backgroundImage: "url(" + bank +")"}} ></CardTitle>
+    <CardText style={{textAlign:'center',padding:'5%', marginLeft:'4vw'}}>
+    A full-stack web based banking application using React and Rails, allows users to sign up for a virtual bank account and perform some transactions, such as transfering funds, making deposit and withdrawal.
+    </CardText>
+    <CardActions style={{textAlign:'center'}}border>
+      <Button name = 'bank' id ='zzz' name = 'bankGithub' onClick = {this.openLink} colored>GitHub</Button>
+      <Button colored></Button>
+      <Button name = 'bank' onClick = {this.openLink} colored>Live Demo</Button>
+    </CardActions>
+    <CardMenu style={{color: '#fff'}}>
+      <IconButton name="share" />
+    </CardMenu> */}
+    <img style={{width:'100%', height:'70%'}}src={yourteamtime}></img>
+    <CardText style={{textAlign:'center',marginLeft:'4vw'}}>
+    A full-stack web application designed to be used by managers. A manager will be able to add/delete companies and employees, create a weekly schedule for the employees which belongs to a particular company that they manage.
+    </CardText>
+    <CardActions style={{textAlign:'center'}}  border>
                     <Link to ='/'>
                     <Button name = 'hr' onClick = {this.openLink} colored>GitHub</Button>
                     </Link>
                     <Button colored></Button>
                     <Button name = 'hr' onClick = {this.openLink}  colored>Live Demo</Button>
                   </CardActions >
-                  <CardMenu style={{color: '#fff'}}>
-                    <IconButton name="share" />
-                  </CardMenu>
-                </Card>
+  </Card>
+
 }
 
 renderCard2Back = () => {
-
-  return     <Card className='cardBack' onMouseLeave = {this.hoverCardOne2}  shadow={5} style={{minWidth: '450', width:"70vw",height:'40vh', margin:'auto', marginBottom:'7vh'}}>
-                  <Grid className = 'projectBack' >
-                    <Cell col = {12}><h4>Your Team's Time</h4></Cell>
-                    <Cell  col ={6}>
-                            <h5>Frontend</h5>
-                            <p>React</p>
-                            <p>JavaScript</p>
-                            <p>ReactSpreadsheet</p>
-
-                    </Cell>
-
-                    <Cell col ={6}>
-                            <h5>Backend</h5>
-                            <p>Ruby on Rails</p>
-                            <p>JWT Auth</p>
-                            <p>PostgreSQL</p>
-                    </Cell>
-                  </Grid>
-                      <CardActions  style={{textAlign:'center', cursor:'pointer'}}>
-                      <Button name = 'hr' onClick = {this.openLink} colored>GitHub</Button>
-                      <Button colored></Button>
-                      <Button name = 'hr' onClick = {this.openLink} colored>Live Demo</Button>
-                      </CardActions>
+          return <Card className='cardBack' shadow={5} onMouseLeave = {this.hoverCardOne2}  shadow={5} style={{minWidth: '450', margin:'auto', marginBottom:'7vh'}}>
+                      
+                  <div className='projectBack'>
+                      <div className = 'ui grid'>
+                            <div className = 'sixteen wide column' style={{border: 'solid 1px white', marginTop:'2vh'}}>
+                                  <h3>Your Team's Time</h3>
+                            </div>
+                            <div className = 'eight wide column' style={{border: 'solid 1px white'}}>
+                                  <h4>Frontend</h4>
+                            </div>
+                            <div className = 'eight wide column' style={{border: 'solid 1px white'}}>
+                                  <h4>Backend</h4>
+                            </div>    
+                            <div className = 'eight wide column'>
+                                  <h6>React</h6>
+                                  <h6>React Spreadsheet</h6>
+                                  <h6>Sweet Alert</h6>
+                                  <h6>JavaScript</h6>
+                            </div>
+                            <div className = 'eight wide column'>
+  
+                                  <h6>Ruby On Rails</h6>
+                                  <h6>JWT Auth</h6>
+                                  <h6>PostgreSQL</h6>
+                         </div>    
+                   </div>
+             </div>
+             <CardActions  style={{textAlign:'center', cursor:'pointer'}}>
+                         <Button name = 'hr' onClick = {this.openLink} colored>GitHub</Button>
+                         <Button colored></Button>
+                         <Button name = 'hr' onClick = {this.openLink} colored>Live Demo</Button>
+                         </CardActions>
                 </Card>
 }
 
 renderCard3Front = () => {
 
-  return     <Card className='cardFront' onMouseEnter = {this.hoverCardOne3} shadow={5} style={{minWidth: '450', width:"70vw",height:'60vh', margin:'auto', marginBottom:'7vh'}}>
-                  <CardTitle  className = 'projectFront' style={{color: '#fff', height: '500px',backgroundImage: "url(" + ticketfinder +")"}} ></CardTitle>
-                  <CardText style={{textAlign:'center',padding:'5%',marginLeft:'4vw'}} >
-                  Built a full-stack application with asynchronous fetches, external API using JavaScript, HTML, and Css. Users can browse upcoming events and add to their personal planner.
-                  </CardText>
-                  <CardActions style={{textAlign:'center'}} border>
-                    <Link to ='/'>
-                    <Button name = 'hr' onClick = {this.openLink} colored>GitHub</Button>
-                    </Link>
-                    <Button colored></Button>
-                    <Button name = 'hr' onClick = {this.openLink} colored>Live Demo</Button>
-                  </CardActions >
-                  <CardMenu style={{color: '#fff'}}>
-                    <IconButton name="share" />
-                  </CardMenu>
-                </Card>
+                    return     <Card className = 'cardFront' id ='yourteamtime' onMouseEnter = {this.hoverCardOne3} shadow={5} style={{  margin:'auto', marginBottom:'7vh'}}>
+                    {/* <CardTitle  className = 'projectFront' style={{color: '#fff',height:'450px', backgroundImage: "url(" + bank +")"}} ></CardTitle>
+                    <CardText style={{textAlign:'center',padding:'5%', marginLeft:'4vw'}}>
+                    A full-stack web based banking application using React and Rails, allows users to sign up for a virtual bank account and perform some transactions, such as transfering funds, making deposit and withdrawal.
+                    </CardText>
+                    <CardActions style={{textAlign:'center'}}border>
+                      <Button name = 'bank' id ='zzz' name = 'bankGithub' onClick = {this.openLink} colored>GitHub</Button>
+                      <Button colored></Button>
+                      <Button name = 'bank' onClick = {this.openLink} colored>Live Demo</Button>
+                    </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                      <IconButton name="share" />
+                    </CardMenu> */}
+                    <img style={{width:'100%', height:'80%', marginTop:'-5vh'}}src={ticketfinder}></img>
+                    <hr></hr>
+                    <CardText style={{textAlign:'center', marginLeft:'4vw'}}>
+                    Built a full-stack application with asynchronous fetches, external API using JavaScript, HTML, and Css. Users can browse upcoming events and add to their personal planner.
+                    </CardText>
+                    <CardActions style={{textAlign:'center',marginTop:'2vh', marginBottom:'-2vh'}}  border>
+                                    <Link to ='/'>
+                                    <Button name = 'ticketfinder' onClick = {this.openLink} colored>GitHub</Button>
+                                    </Link>
+                                    <Button colored></Button>
+                                    <Button name = 'ticketfinder' onClick = {this.openLink}  colored>Live Demo</Button>
+                                  </CardActions >
+                  </Card>
 }
 
 renderCard3Back = () => {
 
-  return     <Card className='cardBack' onMouseLeave = {this.hoverCardOne3} shadow={5} style={{minWidth: '450', width:"70vw",height:'40vh', margin:'auto', marginBottom:'7vh'}}>
-              <Grid className = 'projectBack' >
-                <Cell col = {12}><h4>TickerFinder</h4></Cell>
-                <Cell  col ={6}>
-                        <h5>Frontend</h5>
-                        <p>JavaScript</p>
-                </Cell>
+  return <Card className='cardBack' shadow={5} onMouseLeave = {this.hoverCardOne3}  shadow={5} style={{minWidth: '450', margin:'auto', marginBottom:'7vh'}}>
+                      
+  <div className='projectBack'>
+      <div className = 'ui grid'>
+            <div className = 'sixteen wide column' style={{border: 'solid 1px white', marginTop:'2vh'}}>
+                  <h3>Ticket Finder</h3>
+            </div>
+            <div className = 'eight wide column' style={{border: 'solid 1px white'}}>
+                  <h4>Frontend</h4>
+            </div>
+            <div className = 'eight wide column' style={{border: 'solid 1px white'}}>
+                  <h4>Backend</h4>
+            </div>    
+            <div className = 'eight wide column'>
+                  <h6>JavaScript</h6>
+                  <h6>Ticketmaster API</h6>
 
-                <Cell col ={6}>
-                        <h5>Backend</h5>
-                        <p>Ruby on Rails</p>
-                        <p>PostgreSQL</p>
-                </Cell>
-              </Grid>
-                  <CardActions  style={{textAlign:'center', cursor:'pointer'}}>
-                  <Button name='ticketfinder' onClick = {this.openLink}  colored>GitHub</Button>
-                  <Button colored></Button>
-                  <Button name = 'ticketfinder' onClick = {this.openLink} colored>Live Demo</Button>
-                  </CardActions>
-            </Card>
+            </div>
+            <div className = 'eight wide column'>
 
-        // return      <Card>
-        //       <Image src='/images/avatar/large/matthew.png' wrapped ui={false} />
-        //       <Card.Content>
-        //         <Card.Header>Matthew</Card.Header>
-        //         <Card.Meta>
-        //           <span className='date'>Joined in 2015</span>
-        //         </Card.Meta>
-        //         <Card.Description>
-        //           Matthew is a musician living in Nashville.
-        //         </Card.Description>
-        //       </Card.Content>
-        //       <Card.Content extra>
-        //         <a>
-        //           <Icon name='user' />
-        //           22 Friends
-        //         </a>
-        //       </Card.Content>
-        //     </Card>
+                  <h6>Ruby On Rails</h6>
+                  <h6>PostgreSQL</h6>
+
+         </div>    
+   </div>
+</div>
+<CardActions  style={{textAlign:'center', cursor:'pointer'}}>
+         <Button name = 'ticketfinder' onClick = {this.openLink} colored>GitHub</Button>
+         <Button colored></Button>
+         <Button name = 'ticketfinder' onClick = {this.openLink} colored>Live Demo</Button>
+         </CardActions>
+</Card>
 }
 
   toggleCategories() {

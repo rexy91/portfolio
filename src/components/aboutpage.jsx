@@ -3,7 +3,7 @@ import rails from '../projectPhotos/rails.jpg'
 export class aboutpage extends Component {
     render() {
         return (
-            <div className = 'ui fluid container'>
+            <div className = 'ui fluid container'> 
                 {/* first grid  */}
                         <div className = 'ui grid'>
                                 <div className = 'twelve wide row '>
@@ -22,7 +22,7 @@ export class aboutpage extends Component {
                                         
                                     </div>
                                     <div className = 'sixteen wide mobile twelve wide computer column ' id = 'aboutSecondColumn' >  
-                                            <h2>Skills</h2>
+                                            <h2>Skill</h2>
                                             <div>
                                             <img src="https://img.icons8.com/ios-filled/50/000000/javascript-logo.png"/>
                                             <img src="https://img.icons8.com/ios-glyphs/64/000000/react.png"/>
