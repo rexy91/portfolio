@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
 import bank from '../projectPhotos/bank.jpg'
 import yourteamtime from '../projectPhotos/yourteamtime.jpg'
-import ticketfinder from '../projectPhotos/ticketfinder.jpg'
+import ticketfinder2 from '../projectPhotos/ticketfinder2.jpg'
 import {withRouter} from 'react-router-dom'
 import {  Icon, Image } from 'semantic-ui-react'
 
@@ -213,7 +213,7 @@ renderCard3Front = () => {
                     <CardMenu style={{color: '#fff'}}>
                       <IconButton name="share" />
                     </CardMenu> */}
-                    <img style={{width:'100%', height:'80%', marginTop:'-5vh'}}src={ticketfinder}></img>
+                    <img style={{width:'100%', height:'80%'}}src={ticketfinder2}></img>
                     <hr></hr>
                     <CardText style={{textAlign:'center', marginLeft:'4vw'}}>
                     Built a full-stack application with asynchronous fetches, external API using JavaScript, HTML, and Css. Users can browse upcoming events and add to their personal planner.
