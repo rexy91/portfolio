@@ -31,8 +31,10 @@ export class aboutpage extends Component {
                                                     <img src="https://image.flaticon.com/icons/svg/25/25462.svg" alt=""/>
                                                     <img src={rails} alt="raisl icon"/>
                                                     <img src="https://img.icons8.com/wired/64/000000/ruby-programming-language.png"/>
+                                                    <img src="https://cdn.icon-icons.com/icons2/512/PNG/512/css3-01_icon-icons.com_50918.png" alt=""/>
                                                     <img src="https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/Python_logo-512.png" alt=""/>
                                                     <img src="https://git-scm.com/images/logos/downloads/Git-Icon-Black.png" alt=""/>
+                                                    
                                                 </div>
                                             </div>
                                     </div> 
