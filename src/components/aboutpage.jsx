@@ -16,24 +16,29 @@ export class aboutpage extends Component {
                                 </div>
                         </div>
 
-
                         <div className = 'ui grid'>
                                     <div className = 'four wide column'>
-                                        
-                                    </div>
-                                    <div className = 'sixteen wide mobile twelve wide computer column ' id = 'aboutSecondColumn' >  
-                                            <h2>Skill</h2>
-                                            <div>
-                                            <img src="https://img.icons8.com/ios-filled/50/000000/javascript-logo.png"/>
-                                            <img src="https://img.icons8.com/ios-glyphs/64/000000/react.png"/>
-                                            <img src="https://img.icons8.com/ios-filled/50/000000/redux.png"/>
-                                            <img src="https://image.flaticon.com/icons/svg/25/25462.svg" alt=""/>
-                                            <img src={rails} alt="raisl icon"/>
-                                            <img src="https://img.icons8.com/wired/64/000000/ruby-programming-language.png"/>
-                                            <img src="https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/Python_logo-512.png" alt=""/>
-                                            <img src="https://git-scm.com/images/logos/downloads/Git-Icon-Black.png" alt=""/>
-                                            </div>
 
+                                    </div>
+                                <div className = 'sixteen wide mobile twelve wide computer column ' id = 'aboutSecondColumn' > 
+                                    <div className="row">
+                                            <div className="column">
+                                                <h2>Skills</h2>
+                                                <div>
+                                                    <img src="https://img.icons8.com/ios-filled/50/000000/javascript-logo.png"/>
+                                                    <img src="https://img.icons8.com/ios-glyphs/64/000000/react.png"/>
+                                                    <img src="https://img.icons8.com/ios-filled/50/000000/redux.png"/>
+                                                    <img src="https://image.flaticon.com/icons/svg/25/25462.svg" alt=""/>
+                                                    <img src={rails} alt="raisl icon"/>
+                                                    <img src="https://img.icons8.com/wired/64/000000/ruby-programming-language.png"/>
+                                                    <img src="https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/Python_logo-512.png" alt=""/>
+                                                    <img src="https://git-scm.com/images/logos/downloads/Git-Icon-Black.png" alt=""/>
+                                                </div>
+                                            </div>
+                                    </div> 
+
+                                    <div className='container'>
+                                        <div className="row">
                                             <div id = 'skillDiv1'>
                                                 <p>React</p>
                                                 <p>Redux</p>
@@ -47,10 +52,13 @@ export class aboutpage extends Component {
                                                 <p>Css</p>
                                                 <p>Bootstrap</p>
                                                 <p>MangoDB</p>
-                                                <p>Semantic UI</p>
+                                                <p>Express.JS</p>
                                                 <p>Git</p>
-                                                
                                             </div>
+                                        </div>
+                                    </div>
+
+
                                             {/* <div class="ui two column divided grid">
                                                 <div className = 'stretched row' style = {{border:'solid 1px'}} >
                                                     <div className = 'twelve wide column '>

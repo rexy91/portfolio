@@ -73,7 +73,7 @@ class Resume extends Component {
                 />
               <hr style={{borderTop: '3px solid '}} />
               <h2>Skills</h2>
-              <p style = {{fontSize:'17px'}}>React, Redux, JavaScript, Rails, Ruby, Git, Css, Bootstrap, HTML, PostgreSQL, MangoDB, Python.</p>
+              <p style = {{fontSize:'17px'}}>React, Redux, JavaScript, Rails, Ruby, NodeJS, ExpressJS, Git, Css, Bootstrap, HTML, PostgreSQL, MangoDB.</p>
               <hr style={{borderTop: '3px solid '}} />
               <h2>Education</h2>
             <Education
