@@ -17,7 +17,7 @@ export class newLanding extends Component {
             <hr/>
             <br/>
           {/* <p>React | Redux | JavaScript | Ruby | Rails | Bootstrap | Css | Git | HTML</p> */}
-        <p>Passionate about coding and problem solving. Possess strong skills in collaborating with team and pair-programming. Seeks to establish a career as Full Stack Developer with room to grow.</p>
+        <p>Passionate about coding and problem solving. Possess strong skills in collaborating with team and pair-programming. Seeks opportunities with room to grow.</p>
         {/* <p>Passionate about coding and problem solving. Possess strong skills in collaborating with team and pair-programming. Seeks to establish opportunities to keep on learning.</p> */}
         
         <div className="social-links">
