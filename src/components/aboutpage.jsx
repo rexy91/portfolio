@@ -15,8 +15,7 @@ export class aboutpage extends Component {
                                     </div>         
                                 </div>
                         </div>
-
-
+                        
                         <div className = 'ui grid'>
                                     <div className = 'four wide column'>
                                         
@@ -48,7 +47,7 @@ export class aboutpage extends Component {
                                                 <p>Css</p>
                                                 <p>Bootstrap</p>
                                                 <p>MangoDB</p>
-                                                <p>Semantic UI</p>
+                                                <p>Express JS</p>
                                                 <p>Git</p>
                                                 
                                             </div>
