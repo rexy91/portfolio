@@ -29,7 +29,7 @@ export class Blog extends Component {
     render() {
         return (
             <div id = 'blogPage'>
-                <div className = 'ui stackable two column grid'>
+                {/* <div className = 'ui stackable two column grid'>
 
                     <div className = 'eight wide column blogContainer' >
                                 <h5 onClick = {this.openBlog} name = 'activeRecord'style={{marginLeft:'10vw'}}>Active Record Associations</h5>
@@ -48,48 +48,27 @@ export class Blog extends Component {
                                 <h5  name = 'binarySearch' onClick = {this.openBlog} style={{marginRight:'10vw'}}> Binary Search Algorithm</h5>
                                 <img name = 'binarySearch' onClick = {this.openBlog} style={{marginRight:'10vw'}} src={binarysearch} alt=""/> 
                     </div>              
-                </div>
-                {/* <div class="ui grid">
-                    <div class="two wide computer zero wide mobile column ">
-                            <Card style={{minWidth: '450'}}>
-                           
-                            </Card>
-                    </div>
-                    <div class="six wide computer sixteen wide mobile column">
-                           <Card style={{width: '100%'}}>
-                                <h4 style = {{marginBottom:'-1vh'}}>Active Record Associations</h3>
-                                <img src={railsblog} alt=""/>
-                                
-                            </Card>
-
-                    </div>
-                    <div class="six wide computer sixteen wide mobile column">
-                            <Card style={{width: '100%'}}>
-                                <h3 style = {{marginBottom:'1vh'}}>Bootstrap Grid System</h3>
-                                <img src={bootstrap} alt=""/>
-                            </Card>
-
-                    </div>
-                    <div class="two wide computer sisteen wide mobile column">
-                             <Card style={{minWidth: '450'}}>
-                            </Card>
-
-                    </div>
-                    <div class="two wide column">
-
-                    </div>
-                    <div class="six wide column">
-                         <h3 style = {{marginBottom:'-1vh'}}>JavaScript Callback Functions</h3>
-                        <img src={callbackfunction} alt=""/>
-                    </div>
-                    <div class="six wide column">
-                        <h3 style = {{}}>Binary Search Algorithm</h3>
-                        <img src={binarysearch} alt=""/>
-                    </div>
-                    <div class="two wide column">
-
-                    </div>
                 </div> */}
+                <div className="container-">
+                        <div className="row">
+                            <div className="col-md-4">
+                                    <h5 onClick = {this.openBlog} name = 'activeRecord'>Active Record Associations</h5>
+                                    <img onClick = {this.openBlog} name = 'activeRecord'src={railsblog} alt=""/> 
+                            </div>
+                            <div className="col-md-4">
+                                    <h5 name = 'callbackFunction' onClick = {this.openBlog} >JavaScript Callback Functions</h5>
+                                    <img name = 'callbackFunction' onClick = {this.openBlog}  src={callbackfunction} alt=""/> 
+                            </div>
+                            <div className="col-md-4">
+                                    <h5 name = 'gridSystem'  onClick = {this.openBlog} >Bootstrap Grid System</h5>
+                                    <img name = 'gridSystem' onClick = {this.openBlog} src={bootstrap} alt=""/> 
+                            </div>
+                            <div className="col-md-4">
+                                    <h5  name = 'binarySearch' onClick = {this.openBlog} > Binary Search Algorithm</h5>
+                                    <img name = 'binarySearch' onClick = {this.openBlog} src={binarysearch} alt=""/> 
+                            </div>
+                        </div>
+                </div>
             </div>
         )
     }
