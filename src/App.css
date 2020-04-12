@@ -35,7 +35,7 @@
 .banner-text {
   /* background-color: black; */
   opacity: .8;
-  width: 75%;
+  width: 70%;
   margin: auto;
   border-radius: 10px;
 }
@@ -324,7 +324,7 @@
 /* about page  */
 #aboutFirstColumn{
   display: table;
-  margin-top: 3vh;
+  margin-top: 2vh;
   /* margin-left:3vh; */
   /* height: 110%; */
   height: 40vh;
