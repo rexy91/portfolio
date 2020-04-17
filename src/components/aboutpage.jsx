@@ -53,11 +53,7 @@ export class aboutpage extends Component {
                                                 <p>Css</p>
                                                 <p>Bootstrap</p>
                                                 <p>MangoDB</p>
-<<<<<<< HEAD
                                                 <p>Express.JS</p>
-=======
-                                                <p>Express JS</p>
->>>>>>> master
                                                 <p>Git</p>
                                             </div>
                                         </div>
