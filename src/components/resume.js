@@ -43,7 +43,9 @@ class Resume extends Component {
             <hr style={{borderTop: '3px solid black', width: '50%'}}/>
           </Cell>
           <Cell className="resume-right-col" col={8}>
-
+              <h2>Skills</h2>
+              <p style = {{fontSize:'17px'}}>React, Redux, JavaScript, Rails, Ruby, Git, Css, Bootstrap, HTML, PostgreSQL, MangoDB, Python.</p>
+              <hr style={{borderTop: '3px solid '}} />
               <h2>Experience</h2>
             <Experience
               startYear={'03 / 2018'}
@@ -71,9 +73,21 @@ class Resume extends Component {
                 descriptionLine1="Researched on HVAC products specs and provide submittals for projects"
                 descriptionLine2="Maintained a database by entering new and updated customer and account info."
                 />
+<<<<<<< HEAD
               <hr style={{borderTop: '3px solid '}} />
               <h2>Skills</h2>
               <p style = {{fontSize:'17px'}}>React, Redux, JavaScript, Rails, Ruby, NodeJS, ExpressJS, Git, Css, Bootstrap, HTML, PostgreSQL, MangoDB.</p>
+=======
+              <Experience
+                startYear={"03 / 2014"}
+                endYear={"12 / 2015"}
+                jobName="101 Phone Store"
+                position="Retail Sales Consultant"
+                descriptionLine1="Developed and attained customer experience and sales objectives for store."
+                descriptionLine2="Maintained strong knowledge of all products, accessories, pricing plans and service features."
+                descriptionLine3="Provided efficient, courteous customer service and assist in all aspects of product offerings and services."
+                />
+>>>>>>> master
               <hr style={{borderTop: '3px solid '}} />
               <h2>Education</h2>
             <Education

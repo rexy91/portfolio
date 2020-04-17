@@ -2,7 +2,10 @@ import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
 import bank from '../projectPhotos/bank.jpg'
 import yourteamtime from '../projectPhotos/yourteamtime.jpg'
+<<<<<<< HEAD
 import ticketfinder from '../projectPhotos/ticketfinder.jpg'
+=======
+>>>>>>> master
 import ticketfinder2 from '../projectPhotos/ticketfinder2.jpg'
 import {withRouter} from 'react-router-dom'
 import {  Icon, Image } from 'semantic-ui-react'

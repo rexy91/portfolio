@@ -35,7 +35,7 @@
 .banner-text {
   /* background-color: black; */
   opacity: .8;
-  width: 75%;
+  width: 70%;
   margin: auto;
   border-radius: 10px;
 }
@@ -431,11 +431,15 @@
 
 #blogPage h5, img{
   cursor: pointer;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
 }
 
 #blogPage img{
-    height: 35vh;
-    width: 26vw;
+    
+    height: 28vh;
+    width: 23vw;
 }
 
 #blogPage {
@@ -444,6 +448,11 @@
 
 
 .blogContainer{
+  text-align: center;
+} 
+
+.blogCols{
+  margin-bottom: 20px;
   text-align: center;
 }
 
