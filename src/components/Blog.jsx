@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
-import railsblog from './blogphotos/railsblog.jpg'
+import rails from './blogphotos/rails.jpg'
 import bootstrap from './blogphotos/bootstrap.jpg'
-import callbackfunction from './blogphotos/callbackfunction.jpg'
+import callback from './blogphotos/callback.jpg'
 import binarysearch from './blogphotos/binarysearch.jpg'
+import blogCard from './blogCard'
+
 import {withRouter} from 'react-router-dom'
 
 export class Blog extends Component {
@@ -51,19 +53,20 @@ export class Blog extends Component {
                 </div> */}
                 <div className="container-">
                         <div className="row">
-                            <div className="col-md-4">
+                            
+                            <div className="col-md-4 blogCols">
                                     <h5 onClick = {this.openBlog} name = 'activeRecord'>Active Record Associations</h5>
-                                    <img onClick = {this.openBlog} name = 'activeRecord'src={railsblog} alt=""/> 
+                                    <img onClick = {this.openBlog} name = 'activeRecord'src={rails} alt=""/> 
                             </div>
-                            <div className="col-md-4">
+                            <div className="col-md-4 blogCols">
                                     <h5 name = 'callbackFunction' onClick = {this.openBlog} >JavaScript Callback Functions</h5>
-                                    <img name = 'callbackFunction' onClick = {this.openBlog}  src={callbackfunction} alt=""/> 
+                                    <img name = 'callbackFunction' onClick = {this.openBlog}  src={callback} alt=""/> 
                             </div>
-                            <div className="col-md-4">
+                            <div className="col-md-4 blogCols">
                                     <h5 name = 'gridSystem'  onClick = {this.openBlog} >Bootstrap Grid System</h5>
                                     <img name = 'gridSystem' onClick = {this.openBlog} src={bootstrap} alt=""/> 
                             </div>
-                            <div className="col-md-4">
+                            <div className="col-md-4 blogCols">
                                     <h5  name = 'binarySearch' onClick = {this.openBlog} > Binary Search Algorithm</h5>
                                     <img name = 'binarySearch' onClick = {this.openBlog} src={binarysearch} alt=""/> 
                             </div>

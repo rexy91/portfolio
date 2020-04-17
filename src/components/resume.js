@@ -71,6 +71,14 @@ class Resume extends Component {
                 descriptionLine1="Researched on HVAC products specs and provide submittals for projects"
                 descriptionLine2="Maintained a database by entering new and updated customer and account info."
                 />
+              <Experience
+                startYear={"05 / 2016"}
+                endYear={"01 / 2018"}
+                jobName="A.A Mechanical HVAC"
+                position="Data Entry"
+                descriptionLine1="Researched on HVAC products specs and provide submittals for projects"
+                descriptionLine2="Maintained a database by entering new and updated customer and account info."
+                />
               <hr style={{borderTop: '3px solid '}} />
               <h2>Skills</h2>
               <p style = {{fontSize:'17px'}}>React, Redux, JavaScript, Rails, Ruby, Git, Css, Bootstrap, HTML, PostgreSQL, MangoDB, Python.</p>

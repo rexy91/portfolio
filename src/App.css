@@ -423,8 +423,8 @@
 }
 
 #blogPage img{
-    height: 35vh;
-    width: 26vw;
+    height: 28vh;
+    width: 23vw;
 }
 
 #blogPage {
@@ -435,6 +435,11 @@
 .blogContainer{
   text-align: center;
 } 
+
+.blogCols{
+  margin-bottom: 20px;
+  text-align: center;
+}
 
 
 @media (max-width: 1024px){
