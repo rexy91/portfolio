@@ -4,7 +4,6 @@ export class aboutpage extends Component {
     render() {
         return (
             <div className = 'ui fluid container'> 
-                {/* first grid  */}
                         <div className = 'ui grid'>
                                 <div className = 'twelve wide row '>
                                     <div className = 'sixteen wide mobile twelve wide computer column' id ='aboutFirstColumn'>
@@ -15,13 +14,13 @@ export class aboutpage extends Component {
                                     </div>         
                                 </div>
                         </div>
-                        
+
                         <div className = 'ui grid'>
                                     <div className = 'four wide column'>
                                         
                                     </div>
                                     <div className = 'sixteen wide mobile twelve wide computer column ' id = 'aboutSecondColumn' >  
-                                            <h2>Skill</h2>
+                                            <h2>Skills</h2>
                                             <div>
                                             <img src="https://img.icons8.com/ios-filled/50/000000/javascript-logo.png"/>
                                             <img src="https://img.icons8.com/ios-glyphs/64/000000/react.png"/>

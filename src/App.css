@@ -346,9 +346,8 @@
 
 #aboutFirstColumn h3 {
   padding: 3%;
-  font-size: 45px;
+  font-size: 35px;
   text-align: center;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #aboutFirstColumn p {
@@ -356,6 +355,7 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.4;
   margin:auto;
+  margin-top: -13px;
   width: 60vw;
   font-size: 18px;
   /* color:white; */
@@ -388,6 +388,9 @@
     
 }
 
+#aboutSecondColumn h2{
+  font-size: 35px;
+}
 #skillsContainer img{
     width: 10%;
 }
