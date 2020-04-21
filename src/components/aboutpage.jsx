@@ -9,7 +9,7 @@ export class aboutpage extends Component {
                                 <div className = 'twelve wide row '>
                                     <div className = 'sixteen wide mobile twelve wide computer column' id ='aboutFirstColumn'>
                                         <h3>About Me</h3>
-                                        <p>Full-stack developer based in New York City. I have a passion for building full-stack responsive web applications. Experienced in Ruby on Rails, JavaScript, React and Redux based programming and a background in computer science. Pursued a Bachelor of Science degree in Computer Science, and a recent graduate of Flatiron Bootcamp for the full-stack web development program.</p>
+                                        <p>Full-stack developer based in New York City. I have a passion for building full-stack responsive web applications. Experienced in Ruby on Rails, JavaScript, React and Redux based programming and a background in computer science. Pursued a Bachelor of Science degree in Computer Science, and a recent graduate of Flatiron School for the full-stack web development program.</p>
                                     </div>
                                     <div className = 'four wide column '>  
                                     </div>         
