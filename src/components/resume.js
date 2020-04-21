@@ -44,7 +44,7 @@ class Resume extends Component {
           </Cell>
           <Cell className="resume-right-col" col={8}>
               <h2>Skills</h2>
-              <p style = {{fontSize:'17px'}}>React, Redux, JavaScript, Rails, Ruby, Git, Css, Bootstrap, HTML, PostgreSQL, MangoDB, Python.</p>
+              <p style = {{fontSize:'17px'}}>React, Redux, JavaScript, Rails, Ruby, Node.JS, Express.JS, Css, Bootstrap, PostgreSQL, MangoDB, Python.</p>
               <hr style={{borderTop: '3px solid '}} />
               <h2>Experience</h2>
             <Experience
