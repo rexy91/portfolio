@@ -74,7 +74,7 @@ class Resume extends Component {
                 descriptionLine2="Maintained a database by entering new and updated customer and account info."
                 />
               <Experience
-                startYear={"03 / 2014"}
+                startYear={"01 / 2014"}
                 endYear={"12 / 2015"}
                 jobName="101 Phone Store"
                 position="Retail Sales Consultant"
