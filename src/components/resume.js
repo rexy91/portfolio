@@ -72,6 +72,8 @@ class Resume extends Component {
                 position="Data Entry"
                 descriptionLine1="Researched on HVAC products specs and provide submittals for projects"
                 descriptionLine2="Maintained a database by entering new and updated customer and account info."
+                descriptionLine3='Reviewed work orders and accurately input data into company database.'
+                descriptionLine4='Flagged accounts needing additional services and routed this information to appropriate teams to prevent service delays.'
                 />
               <Experience
                 startYear={"01 / 2014"}
@@ -113,8 +115,6 @@ class Resume extends Component {
                       skill="React"
                       progress={25}
                       /> */}
-
-
           </Cell>
         </Grid>
       </div>
