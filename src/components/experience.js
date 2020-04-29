@@ -14,7 +14,7 @@ class Experience extends Component {
           <li>{this.props.descriptionLine1}</li>
           <li>{this.props.descriptionLine2}</li>
           {this.props.descriptionLine3 ? <li>{this.props.descriptionLine3}</li> : null}
-          {this.props.descriptionLine3 ? <li>{this.props.descriptionLine3}</li> : null}
+          {this.props.descriptionLine4 ? <li>{this.props.descriptionLine4}</li> : null}
         </Cell>
       </Grid>
     )
