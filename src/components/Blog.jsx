@@ -1,11 +1,9 @@
 import React, { Component } from 'react'
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
 import rails from './blogphotos/rails.jpg'
 import bootstrap from './blogphotos/bootstrap.jpg'
 import callback from './blogphotos/callback.jpg'
 import binarysearch from './blogphotos/binarysearch.jpg'
 import expressJS from './blogphotos/express.jpg'
-import blogCard from './blogCard'
 
 import {withRouter} from 'react-router-dom'
 
