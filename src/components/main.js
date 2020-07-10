@@ -5,7 +5,6 @@ import Projects from './projects';
 import Resume from './resume';
 import aboutpage from './aboutpage'
 import Blog from './Blog'
-import newhome from './newhome'
 import newLanding from './newLanding'
 
 const Main = () => (
