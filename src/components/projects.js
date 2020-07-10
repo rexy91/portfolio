@@ -6,7 +6,7 @@ import ticketfinder2 from '../projectPhotos/ticketfinder2.jpg'
 import {withRouter} from 'react-router-dom'
 
 // import ticketfinder from '../projectPhotos/ticketfinder.jpg'
-import {NavLink, Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 class Projects extends Component {
   constructor(props) {
