@@ -4,12 +4,9 @@ import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
 import {withRouter} from 'react-router-dom'
+
 class Resume extends Component {
-
-
   render() {
-
-
     const openGithub = () => {
         window.open('https://github.com/rexy91')
     }
@@ -47,18 +44,10 @@ class Resume extends Component {
               <p style = {{fontSize:'17px'}}>React, Redux, JavaScript, Rails, Ruby, Node.JS, Express.JS, Css, Bootstrap, PostgreSQL, MangoDB, Python.</p>
               <hr style={{borderTop: '3px solid '}} />
               <h2>Experience</h2>
-            <Experience
-              startYear={'03 / 2018'}
-              endYear={'Present'}
-              position="Rideshare Driver"
-              jobName = "Uber"
-              descriptionLine1 = "Multitasks in a high-pressure environment. Included navigating and communicating."
-              descriptionLine2 = "Develops strong communication skills with passengers."
-            
-              />
+
               <Experience
               startYear={"05 / 2018"}
-              endYear={"11 / 2019"}
+              endYear={"Present"}
               jobName="Billboard Real Estate"
               position="Desktop Support"
               descriptionLine1 = "Maintained computer hardware and software on desktops to keep versions current."
@@ -66,7 +55,7 @@ class Resume extends Component {
               descriptionLine3 = "Tested software performance throughout the desktop network."
               />
               <Experience
-                startYear={"05 / 2016"}
+                startYear={"02 / 2016"}
                 endYear={"01 / 2018"}
                 jobName="A.A Mechanical HVAC"
                 position="Data Entry"
@@ -92,7 +81,6 @@ class Resume extends Component {
               schoolName="Flatiron School"
               degree="Full Stack Web Development,Ruby on Rails,JavaScript and React program"
                />
-
                <Education
                  endYear={"05 / 2019"}
                  schoolName="CUNY Brooklyn College"
