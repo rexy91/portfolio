@@ -80,7 +80,7 @@ class Projects extends Component {
                       <CardMenu style={{color: '#fff'}}>
                         <IconButton name="share" />
                       </CardMenu> */}
-                      <img style={{width:'100%', height:'90%'}}src={bank}></img>
+                      <img style={{width:'100%', height:'90%'}}src={bank} alt=''></img>
                       <CardText style={{textAlign:'center', marginLeft:'4vw'}}>
                       A full-stack web based banking application using React and Rails, allows users to sign up for a virtual bank account and perform some transactions, such as transfering funds, making deposit and withdrawal.
                       </CardText>
