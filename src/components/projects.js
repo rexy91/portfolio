@@ -268,23 +268,6 @@ renderCard3Back = () => {
     if(this.state.activeTab === 0){
       return(
         <div className="projects-grid ">
-          {/* Project 1
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle onMouseOver = {this.hoverCardOne} id = 'project1card' style={{color: '#fff', height: '250px'}} >React Project #1</CardTitle>
-            <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-            </CardText>
-            <CardActions border>
-              <Link to ='/'>
-              <Button colored>GitHub</Button>
-              </Link>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
-            </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card> */}
           {this.state.toggleCard1 ? this.renderCard1Front() : this.renderCard1Back()}
           {this.state.toggleCard2 ? this.renderCard2Front() : this.renderCard2Back()}
           {this.state.toggleCard3 ? this.renderCard3Front() : this.renderCard3Back()}
