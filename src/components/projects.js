@@ -87,7 +87,7 @@ class Projects extends Component {
                       <CardActions style={{textAlign:'center'}}border>
                         <Button name = 'bank' id ='zzz' name = 'bankGithub' onClick = {this.openLink} colored>GitHub</Button>
                         <Button colored></Button>
-                        <Button name = 'bank' onClick = {this.openLink} colored>Live Demo</Button>
+                        {/* <Button name = 'bank' onClick = {this.openLink} colored>Live Demo</Button> */}
                       </CardActions>
                     </Card>
       
