@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, Card, CardText, CardActions, Button} from 'react-mdl';
 import bank from '../projectPhotos/bank.jpg'
 import yourteamtime from '../projectPhotos/yourteamtime.jpg'
-import ticketfinder from '../projectPhotos/ticketfinder.jpg'
 import ticketfinder2 from '../projectPhotos/ticketfinder2.jpg'
 import {withRouter} from 'react-router-dom'
-import {  Icon, Image } from 'semantic-ui-react'
 
 // import ticketfinder from '../projectPhotos/ticketfinder.jpg'
-import {NavLink, Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 class Projects extends Component {
   constructor(props) {
@@ -82,12 +80,12 @@ class Projects extends Component {
                       <CardMenu style={{color: '#fff'}}>
                         <IconButton name="share" />
                       </CardMenu> */}
-                      <img style={{width:'100%', height:'90%'}}src={bank}></img>
+                      <img style={{width:'100%', height:'90%'}}src={bank} alt=''></img>
                       <CardText style={{textAlign:'center', marginLeft:'4vw'}}>
                       A full-stack web based banking application using React and Rails, allows users to sign up for a virtual bank account and perform some transactions, such as transfering funds, making deposit and withdrawal.
                       </CardText>
                       <CardActions style={{textAlign:'center'}}border>
-                        <Button name = 'bank' id ='zzz' name = 'bankGithub' onClick = {this.openLink} colored>GitHub</Button>
+                        <Button name = 'bank' id ='zzz' onClick = {this.openLink} colored>GitHub</Button>
                         <Button colored></Button>
                         <Button name = 'bank' onClick = {this.openLink} colored>Live Demo</Button>
                       </CardActions>
@@ -96,7 +94,7 @@ class Projects extends Component {
 }
 
   renderCard1Back = () => {
-                  return <Card className='cardBack' shadow={5} onMouseLeave = {this.hoverCardOne1}  shadow={5} style={{minWidth: '450', margin:'auto', marginBottom:'7vh'}}>
+                  return <Card className='cardBack' onMouseLeave = {this.hoverCardOne1}  shadow={5} style={{minWidth: '450', margin:'auto', marginBottom:'7vh'}}>
                                     
                   <div className='projectBack'>
                       <div className = 'ui grid'>
@@ -148,7 +146,7 @@ class Projects extends Component {
     <CardMenu style={{color: '#fff'}}>
       <IconButton name="share" />
     </CardMenu> */}
-    <img style={{width:'100%', height:'70%'}}src={yourteamtime}></img>
+    <img style={{width:'100%', height:'70%'}}src={yourteamtime} alt=''></img>
     <CardText style={{textAlign:'center',marginLeft:'4vw'}}>
     A full-stack web application designed to be used by managers. A manager will be able to add/delete companies and employees, create a weekly schedule for the employees which belongs to a particular company that they manage.
     </CardText>
@@ -164,7 +162,7 @@ class Projects extends Component {
 }
 
 renderCard2Back = () => {
-          return <Card className='cardBack' shadow={5} onMouseLeave = {this.hoverCardOne2}  shadow={5} style={{minWidth: '450', margin:'auto', marginBottom:'7vh'}}>
+          return <Card className='cardBack'onMouseLeave = {this.hoverCardOne2}  shadow={5} style={{minWidth: '450', margin:'auto', marginBottom:'7vh'}}>
                       
                   <div className='projectBack'>
                       <div className = 'ui grid'>
@@ -214,7 +212,7 @@ renderCard3Front = () => {
                     <CardMenu style={{color: '#fff'}}>
                       <IconButton name="share" />
                     </CardMenu> */}
-                    <img style={{width:'100%', height:'80%'}}src={ticketfinder2}></img>
+                    <img style={{width:'100%', height:'80%'}}src={ticketfinder2} alt=''></img>
                     <hr></hr>
                     <CardText style={{textAlign:'center', marginLeft:'4vw'}}>
                     Built a full-stack application with asynchronous fetches, external API using JavaScript, HTML, and Css. Users can browse upcoming events and add to their personal planner.
@@ -231,7 +229,7 @@ renderCard3Front = () => {
 
 renderCard3Back = () => {
 
-  return <Card className='cardBack' shadow={5} onMouseLeave = {this.hoverCardOne3}  shadow={5} style={{minWidth: '450', margin:'auto', marginBottom:'7vh'}}>
+  return <Card className='cardBack' shadow={5} onMouseLeave = {this.hoverCardOne3}  style={{minWidth: '450', margin:'auto', marginBottom:'7vh'}}>
                       
   <div className='projectBack'>
       <div className = 'ui grid'>
