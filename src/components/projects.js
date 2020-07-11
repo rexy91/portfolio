@@ -90,6 +90,7 @@ class Projects extends Component {
                         <Button name = 'bank' onClick = {this.openLink} colored>Live Demo</Button>
                       </CardActions>
                     </Card>
+
       
 }
 
