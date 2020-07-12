@@ -51,22 +51,26 @@ export class Blog extends Component {
             {
                 id:3,
                 title:'JavaScript Callback Functions',
-                url:'https://blog.usejournal.com/callback-functions-in-javascript-b3a622586556'
+                url:'https://blog.usejournal.com/callback-functions-in-javascript-b3a622586556',
+                img:`${callback}`
             },
             {
                 id:4,
                 title:'Bootstrap Grid System',
-                url:'https://medium.com/@rxye91/bootstrap-grid-system-12c9f4d96558'
+                url:'https://medium.com/@rxye91/bootstrap-grid-system-12c9f4d96558',
+                img:`${bootstrap}`
             },
             {
                 id:5,
                 title:'Binary Search Algorithm',
-                url:'https://levelup.gitconnected.com/binary-search-algorithm-in-javascript-5227bba08e62'
+                url:'https://levelup.gitconnected.com/binary-search-algorithm-in-javascript-5227bba08e62',
+                img:`${binarysearch}`
             },
             {
                 id:6,
                 title:'REST Api with Node/Express.JS',
-                url:'https://medium.com/@rxye91/rest-api-with-node-express-and-mongodb-99f2c7ecbbc5'
+                url:'https://medium.com/@rxye91/rest-api-with-node-express-and-mongodb-99f2c7ecbbc5',
+                img:`${expressJS}`
             }
         ]
 
