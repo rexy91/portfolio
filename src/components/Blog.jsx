@@ -8,6 +8,7 @@ import expressJS from './blogphotos/express.jpg'
 import {withRouter} from 'react-router-dom'
 
 export class Blog extends Component {
+
     openBlog = (e) => {
         const activeRecordUrl = 'https://medium.com/@rxye91/activerecord-associations-36e049e733bb'
         const callbackFunctionUrl = 'https://blog.usejournal.com/callback-functions-in-javascript-b3a622586556'
@@ -32,31 +33,21 @@ export class Blog extends Component {
     }
     
     render() {
+        const blogs = [
+            {
+                name:'Implementing Singly Linked List in JavaScript',
+                url:'https://medium.com/@rxye91/implement-singly-linked-list-in-javascript-3280c171361e'
+            },
+            {
+                name:'Active Record Associations',
+                url:'https://medium.com/@rxye91/activerecord-associations-36e049e733bb'
+            }
+        ]
+
         return (
             <div id = 'blogPage'>
-                {/* <div className = 'ui stackable two column grid'>
-
-                    <div className = 'eight wide column blogContainer' >
-                                <h5 onClick = {this.openBlog} name = 'activeRecord'style={{marginLeft:'10vw'}}>Active Record Associations</h5>
-                                <img onClick = {this.openBlog} name = 'activeRecord' style={{marginLeft:'10vw'}}src={railsblog} alt=""/>                        
-                    </div>
-                    <div className = 'eight wide column blogContainer' >
-                                  <h5 name = 'callbackFunction' onClick = {this.openBlog} style={{marginRight:'10vw'}}>JavaScript Callback Functions</h5>
-                                  <img name = 'callbackFunction' onClick = {this.openBlog} style={{marginRight:'10vw', marginTop:'1vh'}} src={callbackfunction} alt=""/>            
-                    </div>
-                    <div className = 'eight wide column blogContainer'>
-                                <h5 name = 'gridSystem'  onClick = {this.openBlog} style={{marginLeft:'10vw'}}>Bootstrap Grid System</h5>
-                                <img name = 'gridSystem' onClick = {this.openBlog} style={{marginLeft:'10vw'}} src={bootstrap} alt=""/> 
-                    </div>
-
-                    <div className = 'eight wide column blogContainer'>
-                                <h5  name = 'binarySearch' onClick = {this.openBlog} style={{marginRight:'10vw'}}> Binary Search Algorithm</h5>
-                                <img name = 'binarySearch' onClick = {this.openBlog} style={{marginRight:'10vw'}} src={binarysearch} alt=""/> 
-                    </div>              
-                </div> */}
                 <div className="container-">
                         <div className="row">
-                            
                             <div className="col-md-4 blogCols">
                                     <h5 onClick = {this.openBlog} name = 'activeRecord'>Active Record Associations</h5>
                                     <img className = 'border rounded' onClick = {this.openBlog} name = 'activeRecord'src={rails} alt=""/> 
