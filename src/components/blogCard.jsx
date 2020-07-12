@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class blogCard extends Component {
+export class BlogCard extends Component {
     // openBlog = (e) => {
     //     const activeRecordUrl = 'https://medium.com/@rxye91/activerecord-associations-36e049e733bb'
     //     const callbackFunctionUrl = 'https://blog.usejournal.com/callback-functions-in-javascript-b3a622586556'
@@ -23,13 +23,18 @@ export class blogCard extends Component {
     //         window.open(`${expressUrl}`)
     //     }
     // }
+    openBlog = () => {
+        
+    }
     render() {
+        const {title, img} = this.props.singleBlog
         return (
             <div className="col-md-4 blogCols">
-                    <h5 onClick = {this.openBlog} name = 'activeRecord'>Active Record Associations</h5>
+                    <h5 onClick = {this.openBlog} name = 'activeRecord'>{title}</h5>
+                    <img className = 'border rounded' onClick = {this.openBlog} name = 'activeRecord'src={img} alt=""/> 
         </div>
         )
     }
 }
 
-export default blogCard
+export default BlogCard
