@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-
 export class BlogCard extends Component {
 
     openBlog = (e) => {

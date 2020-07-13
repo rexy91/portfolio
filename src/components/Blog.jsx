@@ -7,7 +7,6 @@ import expressJS from './blogphotos/express.jpg'
 import singlyLinkList from './blogphotos/singlyLinkList.jpg'
 
 import BlogCard from './BlogCard'
-
 import {withRouter} from 'react-router-dom'
 
 export class Blog extends Component {
