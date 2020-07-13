@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import rails from './blogphotos/rails.jpg'
-import bootstrap from './blogphotos/bootstrap.jpg'
-import callback from './blogphotos/callback.jpg'
-import binarysearch from './blogphotos/binarysearch.jpg'
-import expressJS from './blogphotos/express.jpg'
-import singlyLinkList from './blogphotos/singlyLinkList.jpg'
 
+import rails from '../blogphotos/rails.jpg'
+import bootstrap from '../blogphotos/bootstrap.jpg'
+import callback from '../blogphotos/callback.jpg'
+import binarysearch from '../blogphotos/binarysearch.jpg'
+import expressJS from '../blogphotos/express.jpg'
+import singlyLinkList from '../blogphotos/singlyLinkList.jpg'
 import BlogCard from './BlogCard'
 import {withRouter} from 'react-router-dom'
 

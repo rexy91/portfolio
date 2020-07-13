@@ -4,7 +4,7 @@ import Contact from './contact';
 import Projects from './projects';
 import Resume from './resume';
 import aboutpage from './aboutpage'
-import Blog from './Blog'
+import Blog from './blogs/Blog'
 import newLanding from './newLanding'
 
 const Main = () => (
