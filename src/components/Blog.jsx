@@ -6,7 +6,7 @@ import binarysearch from './blogphotos/binarysearch.jpg'
 import expressJS from './blogphotos/express.jpg'
 import singlyLinkList from './blogphotos/singlyLinkList.jpg'
 
-// import BlogCard from './BlogCard'
+import BlogCard from './BlogCard'
 import {withRouter} from 'react-router-dom'
 
 export class Blog extends Component {
@@ -74,7 +74,7 @@ export class Blog extends Component {
         ]
 
         const blogsMapper = blogs.map(blog => {
-            // return <BlogCard singleBlog = {blog} key={blog.id} />
+            return <BlogCard singleBlog = {blog} key={blog.id} />
         })
         return (
             <div id = 'blogPage'>
