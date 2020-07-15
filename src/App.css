@@ -365,16 +365,7 @@
   font-size: 35px;
 }
 
-#aboutSecondColumn{
-  display: table;
-  /* background-color: #423c3c; */
-  height:45vh;
-  margin-top: 1vh;
-  /* height: 150%; */
-  text-align: center;
-  /* margin-bottom: 0; */
-  background: linear-gradient(to right, #e2e0e4, #e2d6d6,#f5ebeb ); 
-}
+
 #aboutSecondColumn img{
     height: 50px;
     width: 50px;
@@ -395,7 +386,6 @@
   margin-top: 2%;
   display: inline-block;
 }
-
 
 /* These CSS will apply as long as the screen size is less than  768px. */
 @media(max-width: 768px ){
@@ -465,4 +455,34 @@
 }
 
 
+
+/* about page sliding in */
+
+#firstBox{
+  animation: aboutMe;
+  animation-duration: 4s;
+}
+
+@keyframes aboutMe{
+  from{opacity: 0;}
+  to{opacity: 100%;}
+}
+
+#aboutSecondColumn{
+  display: table;
+  /* background-color: #423c3c; */
+  height:45vh;
+  margin-top: 1vh;
+  /* height: 150%; */
+  text-align: center;
+  /* margin-bottom: 0; */
+  background: linear-gradient(to right, #e2e0e4, #e2d6d6,#f5ebeb ); 
+  animation: skills;
+  animation-duration: 4s;
+}
+
+@keyframes skills{
+  from{opacity: 0;}
+  to{opacity: 100%;}
+}
 
