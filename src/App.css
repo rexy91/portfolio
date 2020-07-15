@@ -30,7 +30,9 @@
 
 /* @keyframes landingBackground{
   0%{background: linear-gradient(to right, #dad3d3, #b3a4a4, #dad5e0);  }
-  50%{background: linear-gradient(to right, #e2baba, #686363, #dad5e0);}
+  25%{background: linear-gradient(to right, #e2baba, #686363, #dad5e0);}
+  50%{background: linear-gradient(to right, #141414, #5e5757, #656466);}
+  75%{background: linear-gradient(to right, #141414, #5e5757, #656466);}
   100%{background: linear-gradient(to right, #141414, #5e5757, #656466);}
 } */
 
