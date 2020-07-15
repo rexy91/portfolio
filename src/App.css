@@ -496,13 +496,10 @@
   animation-duration: 4s;
 }
 
-  @keyframes aboutMe{
-    0%{opacity: 0%;}
-    25%{opacity: 25%;}
-    50%{opacity: 50%;}
-    75%{opacity: 75%;}
-    100%{opacity: 100%;}
-  }
+  /* @keyframes aboutMe{
+    from{width: 100px;}
+    to{width: 100%;}
+  } */
 
 #aboutSecondColumn{
   display: table;
@@ -516,12 +513,12 @@
   animation: skills;
   animation-duration: 4s;
 }
-
+/* 
 @keyframes skills{
   0%{opacity: 0%;}
   25%{opacity: 25%;}
   50%{opacity: 50%;}
   75%{opacity: 75%;}
   100%{opacity: 100%;}
-}
+} */
 
