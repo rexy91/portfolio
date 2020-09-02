@@ -7,7 +7,6 @@ export class newLanding extends Component {
     render() {
         return (
             <div className = "ui fluid container" id = "landingPage" >
-
             <div className="banner-text" id='landingText'>
             <img style = {{marginBottom:'3%'}}
                     // src = 'https://www.flaticon.com/premium-icon/icons/svg/1713/1713968.svg'
@@ -23,7 +22,6 @@ export class newLanding extends Component {
         {/* <p>Passionate about coding and problem solving. Possess strong skills in collaborating with team and pair-programming. Seeks to establish opportunities to keep on learning.</p> */}
         
         <div className="social-links">
-
           {/* LinkedIn */}
           <a href="https://www.linkedin.com/in/rex-ye-b58703193/" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-linkedin-square" aria-hidden="true" data-tip data-for="linkIn" />
@@ -56,7 +54,6 @@ export class newLanding extends Component {
           <ReactTooltip id='mediumIcon'>
               <span>Medium Profile</span>
           </ReactTooltip>
-
         </div>
         </div>
             </div>
