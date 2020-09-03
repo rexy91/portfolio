@@ -1,0 +1,112 @@
+.NavBarItems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    font-size: 50px; 
+    background-color: black;
+    
+}
+
+.nav-menu{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    text-align: center;
+    list-style: none;
+    justify-content: end;
+    width: 70vw;
+    margin-right: 2rem;
+}
+
+.nav-links{
+    color: white;
+    text-decoration: none;
+    padding: 10px 5px;
+
+}
+
+.navbar-logo{
+    color: white;
+}
+
+.nav-links:hover{
+    background-color: #6d76f7;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
+
+.fa-bars{
+    color: white;
+}
+
+/* burger  */
+.menu-icon {
+    font-size: 30px;
+    display:none;
+}
+
+/* when its moble , change nav bar to verticle  */
+@media screen and (max-width:960px){
+    .NavBarItems{
+        position: relative;
+    }
+
+     /* Before clicking the burger. */
+    .nav-menu{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 500px;
+        position: absolute;
+        top: 80px;
+        /* this hides it , from left side. */
+        left: -100%;
+        opacity: 1;
+        transition: all 0.5s ease; 
+    }
+
+     /* After clicking the buger, change class to this  */
+    .nav-menu.active {
+        background: #6668f4;
+        /* shows it, onclick */
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+    }
+
+    .nav-links {
+        text-align: center;
+        width: 100%;
+        display: table;
+    }
+
+    .nav-links:hover{
+        background-color: #7577fa;
+        border-radius: 0;      
+    }
+
+    .navbar-logo{
+        color: white;
+        position:absolute;
+        top:0;
+        left:0;
+        /* centers it */
+        transform: translate(20%, 90%);
+    }
+
+    .menu-icon{
+        /* show the burger, because it is hidden by default */
+        display: block;
+        position: absolute;
+        top: 0;
+        right:0;
+        transform: translate(-100%, 30%);
+        cursor: pointer;
+    }
+
+    .fa-times{
+        color:#fff;
+    }
+}
