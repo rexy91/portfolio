@@ -17,12 +17,12 @@
     list-style: none;
     justify-content: end;
     width: 70vw;
+    margin-top: 14px;
     margin-right: 2rem;
 }
 
 
 .nav-links{
-    
     font-size: 18px;
     color: white;
     text-decoration: none;
@@ -33,10 +33,11 @@
 .navbar-logo{
     margin-left: 10px;
     font-family: 'Alata';
+    font-weight: bolder;
     letter-spacing: 3px;
     padding: 7px 5px;
     color: white;
-    font-size: 18px;
+    font-size: 19px;
 }
 
 .navbar-logo:hover{
