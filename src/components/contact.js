@@ -18,7 +18,6 @@ export class contact extends Component {
       <input type='submit' value='Send Now'/>
       </form>
 	  </div>
-
     )
   }
 }

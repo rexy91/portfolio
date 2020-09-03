@@ -227,8 +227,6 @@
 
 /* contact page css */
 
-
-
 /* Project page  */
 .projectFront{
   padding: 10% !important;
@@ -253,9 +251,8 @@
   /* background-color: silver; */
   height: 100%; 
   color: white;
-  background: #833ab4;  
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); 
-  background: linear-gradient(to right, #b9b3b3, #575555, #d4d2d6); 
+  
+
 }
 
 #aboutmeCell1{
@@ -270,7 +267,7 @@
 
 
 .cardFront{
-    width:60vw !important;
+    width:45vw !important;
     
 }
 .cardBack{
@@ -523,3 +520,10 @@
   100%{opacity: 100%;}
 } */
 
+
+
+@media screen and (max-width:960px){
+  #blogPage{
+    margin: 10px;
+  }
+}

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import './Navbar.css'
+import './LandingNavBar.css'
 import { Link } from 'react-router-dom';
 import {withRouter} from 'react-router-dom'
 
-class Navbar extends Component {
+class LandingNavBar extends Component {
 
     state ={
         clicked: false 
@@ -51,4 +51,4 @@ class Navbar extends Component {
     }
 }
 
-export default withRouter(Navbar)
+export default withRouter(LandingNavBar)

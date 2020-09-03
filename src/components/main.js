@@ -1,22 +1,21 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Contact from './contact';
-import Projects from './projects';
+import NewProjects from './NewProjectsPage/NewProject'
 import Resume from './resume';
 import aboutpage from './aboutpage'
 import Blog from './blogs/Blog'
-import newLanding from './newLanding'
+import LandingRedo from './LandingRedo/LandingRedo'
 
 const Main = () => (
 
   <Switch>
-    {/* <Route exact path="/" component={LandingPage} /> */}
-    <Route exact path ='/' component = {newLanding}/>
-    <Route exact path = '/blog' component={Blog}/>
-    <Route path="/aboutme" component={aboutpage} />
-    <Route path="/contact" component={Contact} />
-    <Route path="/projects" component={Projects} />
-    <Route path="/resume" component={Resume} />
+    <Route exact path ='/' component = {LandingRedo}/>
+    <Route exact path = '/Blogs' component={Blog}/>
+    <Route path="/About" component={aboutpage} />
+    <Route path="/Contact" component={Contact} />
+    <Route path="/Projects" component={NewProjects} />
+    <Route path="/Resume" component={Resume} />
   </Switch>
   
   

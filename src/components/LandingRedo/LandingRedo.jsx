@@ -5,6 +5,7 @@ import ReactTooltip from 'react-tooltip'
 class LandingRedo extends Component {
     render() {
         return (
+            
             <div className='landing-page' id='main'>
                     <div className='main-page-content'> 
                             <div id='header'>
@@ -16,7 +17,7 @@ class LandingRedo extends Component {
                     <div className='social-links'>
                             {/* LinkedIn */}
                             <a href="https://www.linkedin.com/in/rex-ye-b58703193/" rel="noopener noreferrer" target="_blank">
-                                <i className="fa fa-linkedin-square" aria-hidden="true" data-tip data-for="linkIn" />
+                                <i className="fab fa-linkedin" aria-hidden="true" data-tip data-for="linkIn" />
                             </a>
                             <ReactTooltip id='linkIn'>
                                 <span>linkIn Profile</span>
@@ -24,7 +25,7 @@ class LandingRedo extends Component {
 
                             {/* Github */}
                             <a href="https://github.com/rexy91" rel="noopener noreferrer" target="_blank">
-                                <i className="fa fa-github-square" aria-hidden="true" data-tip data-for="github"/>
+                                <i className="fab fa-github" aria-hidden="true" data-tip data-for="github"/>
                             </a>
                             <ReactTooltip id='github'>
                                 <span>Github Profile</span>
@@ -33,7 +34,7 @@ class LandingRedo extends Component {
                             {/* Freecodecamp */}
 
                             <a href="https://www.instagram.com/yuhoick/?hl=enm" rel="noopener noreferrer" target="_blank">
-                                <i className="fa fab fa-instagram" aria-hidden="true" data-tip data-for ="instagram"/>
+                                <i className="fab fa-instagram" aria-hidden="true" data-tip data-for ="instagram"/>
                             </a>
                             <ReactTooltip id='instagram'>
                                 <span>instagram</span>
@@ -41,13 +42,14 @@ class LandingRedo extends Component {
 
                             {/* Medium */}
                             <a href="https://medium.com/@rxye91" rel="noopener noreferrer" target="_blank" >
-                                <i className="fa fab fa-medium" aria-hidden="true" data-tip data-for ='mediumIcon'/>
+                                <i className="fab fa-medium" aria-hidden="true" data-tip data-for ='mediumIcon'/>
                             </a>
                             <ReactTooltip id='mediumIcon'>
                                 <span>Medium Profile</span>
                             </ReactTooltip>
                      </div>
             </div>
+        
         );
     }
 }

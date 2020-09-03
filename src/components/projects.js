@@ -62,7 +62,6 @@ class Projects extends Component {
     else if (e.target.name ==='ticketfinder' && e.target.innerText ==='LIVE DEMO'){
       window.open(`${ticketfinderWebsite}`)
     }
-    
   }
 
   renderCard1Front = () => {
@@ -340,7 +339,6 @@ renderCard3Back = () => {
               <div id = 'test' className="content ">{this.toggleCategories()}</div>
             </Cell>
           </Grid>
-
       </div>
     )
   }

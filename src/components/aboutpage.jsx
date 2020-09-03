@@ -56,6 +56,7 @@ export class aboutpage extends Component {
                         </div>    
 
             </div> 
+
                         
                 
             
