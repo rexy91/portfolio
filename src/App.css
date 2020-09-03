@@ -423,6 +423,7 @@
   #aboutFirstColumn{
       margin-left: 10px;
       height: 60vh;
+      margin-bottom: -35px;
   }
 }
 
@@ -430,7 +431,6 @@
 @media(max-width: 768px ){
   #aboutSecondColumn{
       margin-right: 12px;
-      margin-top: -6vh;
       height: 55vh;
   }
 }
