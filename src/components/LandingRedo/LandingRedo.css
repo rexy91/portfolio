@@ -7,6 +7,7 @@
 .main-page-content p{
     font-family: 'EB Garamond', serif;
     line-height: 40px;
+    font-weight: bolder;
     margin-top: 2em;
     font-size: 1.6em;
     letter-spacing: 2px;
@@ -16,11 +17,9 @@
     color:rgb(241, 238, 238);
 }
 
-.main-page-content p,h4{
-    
-}
 
 #header{
+    font-weight: bolder;
     padding-top: 120px;
     letter-spacing: 7px;
     color: #fff;
@@ -76,6 +75,7 @@
 
 .social-links{
     text-align: center;
+    font-weight: bolder;
 
 }
 
@@ -84,6 +84,7 @@
     letter-spacing: 10px;
     color: white;
     font-size: 3.5em;
+    font-weight: bolder;
   }
 
   /* animation for social links  */
