@@ -25,7 +25,9 @@ class Navbar extends Component {
     }
     
     handleLogoClick = (e) => {
-        console.log('dfsf')
+        this.setState({
+            clicked: !this.state.clicked
+        })
         this.props.history.push('/') 
     }
     render() {
