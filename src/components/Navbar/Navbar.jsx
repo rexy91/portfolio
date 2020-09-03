@@ -26,7 +26,7 @@ class Navbar extends Component {
     
     handleLogoClick = (e) => {
         this.setState({
-            clicked: !this.state.clicked
+            clicked: false
         })
         this.props.history.push('/') 
     }

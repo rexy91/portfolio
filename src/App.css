@@ -435,10 +435,10 @@
 
 @media(max-width: 768px ){
   #aboutSecondColumn{
-      margin: 2vh;
+      margin: 10px;
+      margin-right: 15px;
       margin-top: -6vh;
       height: 55vh;
-
   }
 }
 
