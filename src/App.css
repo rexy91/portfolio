@@ -421,24 +421,16 @@
 /* These CSS will apply as long as the screen size is less than  768px. */
 @media(max-width: 768px ){
   #aboutFirstColumn{
-      margin: 2vh;
-      margin-right: 25px;
-      margin-top: 5vh;
+      margin-left: 10px;
       height: 60vh;
+      margin-bottom: -35px;
   }
 }
 
-@media(max-width: 768px) {
-  #aboutSecondColumn h2{
-
-  }
-}
 
 @media(max-width: 768px ){
   #aboutSecondColumn{
-      margin: 10px;
-      margin-right: 26px;
-      margin-top: -6vh;
+      margin-right: 12px;
       height: 55vh;
   }
 }
