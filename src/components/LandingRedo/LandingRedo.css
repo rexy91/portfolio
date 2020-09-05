@@ -74,21 +74,29 @@
 }
 
 .social-links{
-    text-align: center;
+    /* text-align: center; */
+    justify-content: center;
     font-weight: bolder;
+    /* display: flex; */
 
 }
 
 .social-links i {
+
+    text-align: center;
     margin-top: 5em;
-    letter-spacing: 10px;
+    letter-spacing: 80px;
     color: white;
     font-size: 3.5em;
     font-weight: bolder;
+
   }
 
   /* animation for social links  */
 .social-links{
+    
+    margin-left: 35%;
+    margin-right: 30%;
     animation-delay: 2s;
     animation: landingIcons 3s ease-in; 
 

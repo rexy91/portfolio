@@ -1,9 +1,7 @@
-.header-color {
-  /* background: #833ab4;  
-  background: -webkit-linear-gradient(to right, #14120e, #141111, #0f0e0f); 
-  background: linear-gradient(to right, #13100e, #000000, #000000);  */
+/* .header-color {
+
   background-color: black !important;
-  /* background-color: black; */
+  
 }
 
 .landing-grid {
@@ -16,17 +14,16 @@
   left: 0;
   width: 100%;
   height: 100%;
-  /* height: 100vh; */
-}
+  
+} */
 
-#landingPage{
+/* #landingPage{
   text-align: center;
   height: 100vh;
   background: linear-gradient(to right, #141414, #5e5757, #656466); 
-  /* background: linear-gradient(to right, #dad3d3, #b3a4a4, #dad5e0);  */
   animation: landingBackground;
   animation-duration: 3s;
-}
+} */
 
 /* @keyframes landingBackground{
   0%{background: linear-gradient(to right, #dad3d3, #b3a4a4, #dad5e0);  }
@@ -36,10 +33,10 @@
   100%{background: linear-gradient(to right, #141414, #5e5757, #656466);}
 } */
 
-#landingText{
+/* #landingText{
   animation: landingText 3s ease-in;
 
-}
+} */
 
 @keyframes landingText{
   0%{
@@ -65,8 +62,8 @@
   padding-top: 5em;
 }
 
-.banner-text {
-  /* background-color: black; */
+/* .banner-text {
+  
   opacity: .8;
   width: 70%;
   margin: auto;
@@ -74,7 +71,7 @@
 }
 
 .banner-text h2 {
-  /* font-size: 66px; */
+  
   font-weight: bold;
   font-size: 4vw;
   color: white;
@@ -91,20 +88,19 @@
   border-top: 5px dotted white;
   width: 50%;
   margin: auto;
-}
+} */
 
-.banner-text p {
-  /* justify-content: center; */
-  /* width: 50%; */
+/* .banner-text p {
+
   width: 60%;
   text-align: center;
   margin-left:  20%;
-  /* margin-right: 5vw; */
+  
   line-height: 1.5;
   color: white;
-  /* font-size: 1.5vw; */
+  
   font-size: 20px;
-}
+} */
 
 .material-icons {
   color: white;
@@ -123,19 +119,19 @@
   -webkit-font-smoothing: antialiased;
 }
 
-.social-links {
+/* .social-links {
   margin-top: 10vh;
   display: flex;
   justify-content: space-between;
   margin: auto;
-}
+} */
 
-.social-links i {
+/* .social-links i {
   margin-top: 10vh;
   color: white;
   font-size: 3em;
   padding: 8px;
-}
+} */
 
 
 /* Anything above 758 width apply these: */
