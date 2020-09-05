@@ -74,33 +74,36 @@
 }
 
 .social-links{
-    /* text-align: center; */
-    justify-content: center;
-    font-weight: bolder;
-    /* display: flex; */
-
+    text-align: center;
+    animation-delay: 2s;
+    animation: landingIcons 3s ease-in; 
+    
 }
 
 .social-links i {
-
-    text-align: center;
+    
     margin-top: 5em;
-    letter-spacing: 80px;
     color: white;
     font-size: 3.5em;
     font-weight: bolder;
+    letter-spacing: 50px;
 
   }
 
-  /* animation for social links  */
-.social-links{
-    
-    margin-left: 35%;
-    margin-right: 30%;
-    animation-delay: 2s;
-    animation: landingIcons 3s ease-in; 
+  @media screen and (max-width: 586px){
+      .social-links i {
+          margin-top: 1em;
+          letter-spacing: 30px;
+          font-size: 3em;
+          
+      }
 
-}
+      .social-links{
+          margin-left: 30px;
+      }
+  }
+
+  
 
 @keyframes landingIcons{
     0%{

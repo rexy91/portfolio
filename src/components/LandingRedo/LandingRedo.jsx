@@ -42,7 +42,7 @@ class LandingRedo extends Component {
 
                             {/* Medium */}
                             <a href="https://medium.com/@rxye91" rel="noopener noreferrer" target="_blank" >
-                                <i className="fab fa-medium" aria-hidden="true" data-tip data-for ='mediumIcon'/>
+                                <i className="fab fa-medium" aria-hidden="true" data-tip data-for ='medium '/>
                             </a>
                             <ReactTooltip id='mediumIcon'>
                                 <span>Medium Profile</span>
