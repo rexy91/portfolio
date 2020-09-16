@@ -388,10 +388,11 @@
 }
 
 @media screen and (max-width:768px){
+
   #aboutFirstColumn p{
-    line-height: 20px;
-    margin-top: 20px;
-    width: 80%;
+    line-height: 25px;
+    margin-top: 15px;
+    width: 90%;
     text-align: initial;
     font-size: 14.5px;
   }
@@ -442,7 +443,7 @@
         font-size: 23px;
         margin-bottom: 5px;
       }
-      
+
 
 }
 
