@@ -5,6 +5,7 @@ import NewProjects from './NewProjectsPage/NewProject'
 import aboutpage from './aboutpage'
 import Blog from './blogs/Blog'
 import LandingRedo from './LandingRedo/LandingRedo'
+import Resume from './resume'
 
 const Main = () => (
 
@@ -14,6 +15,7 @@ const Main = () => (
     <Route path="/About" component={aboutpage} />
     <Route path="/Contact" component={Contact} />
     <Route path="/Projects" component={NewProjects} />
+    <Route path='/Resume' component={Resume} />
   </Switch>
   
   

@@ -173,8 +173,9 @@
 
 /* Resume Page css */
 .resume-right-col {
-  background: #27221F;
-  color: white;
+  border: solid 1px black;
+  /* background: #27221F; */
+  /* color: white; */
   padding: 2em;
 }
 
@@ -365,7 +366,14 @@
   padding: 3%;
   font-size: 37px;
   text-align: center;
-  
+}
+
+/* Bio responsive  */
+@media screen and (max-width:768px){
+    #aboutFirstColumn h3{
+      margin-top: 5vh;
+      font-size: 20px;
+    }
 }
 
 #aboutFirstColumn p {
@@ -379,6 +387,16 @@
   /* color:white; */
 }
 
+@media screen and (max-width:768px){
+
+  #aboutFirstColumn p{
+    line-height: 25px;
+    margin-top: 15px;
+    width: 90%;
+    text-align: initial;
+    font-size: 14.5px;
+  }
+}
 #aboutSecondColumn p {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.2;
@@ -414,6 +432,21 @@
   display: inline-block;
 }
 
+@media screen and (max-width:768px){
+
+      #aboutSecondColumn img{
+          height: 35px;
+          width: 35px;
+          padding: 5px;
+      }
+      #aboutSecondColumn h2{
+        font-size: 23px;
+        margin-bottom: 5px;
+      }
+
+
+}
+
 /* These CSS will apply as long as the screen size is less than  768px. */
 @media(max-width: 768px ){
   #aboutFirstColumn{
@@ -421,15 +454,16 @@
       height: 60vh;
       margin-bottom: -35px;
   }
-}
 
-
-@media(max-width: 768px ){
   #aboutSecondColumn{
-      margin-right: 12px;
-      height: 55vh;
+    margin-right: 12px;
+    height: 55vh;
+}
+  .skillDivWords{
+    font-size: 5px;
   }
 }
+
 
 /* blog  */
 
