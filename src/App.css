@@ -173,8 +173,9 @@
 
 /* Resume Page css */
 .resume-right-col {
-  background: #27221F;
-  color: white;
+  border: solid 1px black;
+  /* background: #27221F; */
+  /* color: white; */
   padding: 2em;
 }
 
