@@ -35,20 +35,20 @@ export class aboutpage extends Component {
                                             </div>
 
                                             <div id = 'skillDiv1'>
-                                                <p>React</p>
-                                                <p>Redux</p>
-                                                <p>JavaScript</p>
-                                                <p>Ruby</p>
-                                                <p>Rails</p>
+                                                <p className='skillDivWords'>React</p>
+                                                <p className='skillDivWords'>Redux</p>
+                                                <p className='skillDivWords'>JavaScript</p>
+                                                <p className='skillDivWords'>Ruby</p>
+                                                <p className='skillDivWords' >Rails</p>
                                                 
                                             </div>
 
                                             <div id ='skillDiv2'>
-                                                <p>Css</p>
-                                                <p>Bootstrap</p>
-                                                <p>MangoDB</p>
-                                                <p>Express JS</p>
-                                                <p>Git</p>
+                                                <p className='skillDivWords'>Css</p>
+                                                <p className='skillDivWords'>Bootstrap</p>
+                                                <p className='skillDivWords'>MangoDB</p>
+                                                <p className='skillDivWords'>Express JS</p>
+                                                <p className='skillDivWords'>Git</p>
                                                 
                                             </div>
 

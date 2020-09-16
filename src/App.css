@@ -366,7 +366,6 @@
   padding: 3%;
   font-size: 37px;
   text-align: center;
-  
 }
 
 /* Bio responsive  */
@@ -375,7 +374,6 @@
       font-size: 20px;
     }
 }
-
 
 #aboutFirstColumn p {
   /* text-align: center; */
@@ -390,7 +388,11 @@
 
 @media screen and (max-width:768px){
   #aboutFirstColumn p{
-    font-size: 12px;
+    line-height: 20px;
+    margin-top: 20px;
+    width: 80%;
+    text-align: initial;
+    font-size: 14.5px;
   }
 }
 #aboutSecondColumn p {
@@ -428,6 +430,15 @@
   display: inline-block;
 }
 
+@media screen and (max-width:768px){
+      #aboutSecondColumn img{
+          height: 30px;
+          width: 30px;
+          padding: 5px;
+      }
+
+}
+
 /* These CSS will apply as long as the screen size is less than  768px. */
 @media(max-width: 768px ){
   #aboutFirstColumn{
@@ -435,15 +446,16 @@
       height: 60vh;
       margin-bottom: -35px;
   }
-}
 
-
-@media(max-width: 768px ){
   #aboutSecondColumn{
-      margin-right: 12px;
-      height: 55vh;
+    margin-right: 12px;
+    height: 55vh;
+}
+  .skillDivWords{
+    font-size: 5px;
   }
 }
+
 
 /* blog  */
 
