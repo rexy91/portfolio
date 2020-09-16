@@ -371,6 +371,7 @@
 /* Bio responsive  */
 @media screen and (max-width:768px){
     #aboutFirstColumn h3{
+      margin-top: 5vh;
       font-size: 20px;
     }
 }
@@ -431,11 +432,17 @@
 }
 
 @media screen and (max-width:768px){
+
       #aboutSecondColumn img{
-          height: 30px;
-          width: 30px;
+          height: 35px;
+          width: 35px;
           padding: 5px;
       }
+      #aboutSecondColumn h2{
+        font-size: 23px;
+        margin-bottom: 5px;
+      }
+      
 
 }
 
