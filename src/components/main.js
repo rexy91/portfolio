@@ -2,10 +2,10 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Contact from './contact';
 import NewProjects from './NewProjectsPage/NewProject'
+import NewProjectCard from './NewProjectCard/NewProjectCard'
 import aboutpage from './aboutpage'
 import Blog from './blogs/Blog'
 import LandingRedo from './LandingRedo/LandingRedo'
-
 
 const Main = () => (
 
@@ -14,11 +14,10 @@ const Main = () => (
     <Route exact path = '/Blogs' component={Blog}/>
     <Route path="/About" component={aboutpage} />
     <Route path="/Contact" component={Contact} />
-    <Route path="/Projects" component={NewProjects} />
-    
+    {/* <Route path="/Projects" component={NewProjects} /> */}
+    <Route path="/Projects" component={NewProjectCard} />
   </Switch>
-  
-  
+
 )
 
 export default Main;
