@@ -4,7 +4,7 @@ import {withRouter} from 'react-router-dom'
 
 import Bankimg from '../../projectPhotos/bank.jpg'
 import mod3photo from '../../projectPhotos/ticketfinder2.jpg'
-import mod2photo from '../../projectPhotos/yourteamtime.jpg'
+import mod2photo from '../NewProjectCard/yourteamtime.jpg'
 
 class ProjectCard extends Component {
 
