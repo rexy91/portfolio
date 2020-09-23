@@ -6,18 +6,20 @@ import ticketfinderImg from './ticketfinder2.jpg'
 
 class NewProjectCard extends Component {
     state = {
-        toggleTechstack: false
+        bankTechStack: false,
+        yourTeamTimeTechStack:false,
+        ticketFinder:false
+
     }
 
-    toggleFlip = () => {
-        console.log('inside')
+    toggleBankFlip = () => {
         this.setState({
-            toggleTechstack: !this.state.toggleTechstack
+            bankTechStack: !this.state.toggleTechstack
         })
     }
 
     renderBankDescription = () => {
-        if(this.state.toggleTechstack === false) {
+        if(this.state.bankTechStack === false) {
             return(
                 <div>
                 <h3>Flatiron Virtual Bank</h3>
@@ -25,7 +27,7 @@ class NewProjectCard extends Component {
                 </div>
             )
         }
-        else if(this.state.toggleTechstack === true){
+        else if(this.state.bankTechStack === true){
                 return(
                     <div className='tech-stack'>
                             <div>
@@ -109,7 +111,7 @@ class NewProjectCard extends Component {
 
         return (
             <div>
-          
+                    <p id='project-title'>My Projects</p>
                     <div className="blog-card" id='project1-card' >
                         <div className="inner-part">
                             <label className= 'img'>
@@ -117,13 +119,13 @@ class NewProjectCard extends Component {
                             </label>
                             <div className="content content-1">
                                 {this.renderBankDescription()}
-                            <button onClick={this.toggleFlip} className='project-buttons' type='submit'>{this.state.toggleTechstack ? 'Description' : 'Tech Stack'}</button>
+                            <button onClick={this.toggleBankFlip} className='project-buttons' type='submit'>{this.state.toggleTechstack ? 'Description' : 'Tech Stack'}</button>
                                 <button className='project-buttons' type='submit'>Live Demo</button>
                                 <button className='project-buttons' type='submit'>Github Repo</button>
                             </div>
                         </div>
                     </div>
-        
+                    
                     <div className="blog-card" id='project2-card'>
                         <div className="inner-part">
                             <label className= 'img'>

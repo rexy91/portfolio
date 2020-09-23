@@ -25,7 +25,7 @@
     color: #fff;
     font-size: 50px;
     text-align: center;
-    animation: landingHeader 3s 1 ease-in;
+    animation: landingHeader 4s 1 ease-in;
 
 }
 
@@ -34,15 +34,17 @@
     0%{
         color: blanchedalmond;
         letter-spacing: 25px;
-        margin: -40px;
+        /* margin: -40px; */
     }
     35%{
-        margin: -40px;
+        /* margin: -40px; */
+        
     }
     
     85%{
         letter-spacing: 7px;
     }
+
 }
 
 
@@ -117,7 +119,6 @@
           margin-top: 1em;
           letter-spacing: 30px;
           font-size: 3em;
-          
       }
 
       .social-links{

@@ -14,7 +14,7 @@ class Resume extends Component {
         window.open('https://medium.com/@rxye91')
     }
     return(
-        <Grid>
+        <Grid style={{background:'#FFFAF0'}}>
           <Cell col={4}>
             {/* <div style={{textAlign: 'center'}}>
               <img

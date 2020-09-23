@@ -341,9 +341,9 @@
       border-radius: 5px;
 }
 
-
 /* contactForm Div  */
 #contactformdiv{
+  height: 100vh;
   border-radius: 20px;
   background-color: #f2f2f2;
   padding: 20px;
@@ -352,7 +352,6 @@
 /* about page  */
 #aboutFirstColumn{
   display: table;
-  margin-top: 2vh;
   /* margin-left:3vh; */
   /* height: 110%; */
   height: 40vh;
@@ -361,6 +360,12 @@
   margin-bottom: -1vh;
   background: linear-gradient(to right, #f5ebeb, #e2d6d6, #e2e0e4); 
 }
+
+/* @media screen and (min-width:980px){
+  #aboutFirstColumn{
+    margin-top: 75px;
+  }
+} */
 
 #aboutFirstColumn h3 {
   padding: 3%;
