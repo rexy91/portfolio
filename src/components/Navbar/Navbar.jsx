@@ -42,7 +42,6 @@ class Navbar extends Component {
                     <ul className={this.state.clicked? 'nav-menu active' : 'nav-menu'}>
                         {/* To close the side bar menu on moble, all you gotta do is just change the state. */}
                         <li><a className='nav-links' href='' onClick={this.handleNavItemsClick}>About</a></li>
-                        <li><a className='nav-links' href='' onClick={this.handleNavItemsClick}>Resume</a></li>
                         <li><a className='nav-links' href='' onClick={this.handleNavItemsClick}>Projects</a></li>
                         <li><a className='nav-links' href='' onClick={this.handleNavItemsClick}>Blogs</a></li>
                         <li><a className='nav-links' href='' onClick={this.handleNavItemsClick}>Contact</a></li>
