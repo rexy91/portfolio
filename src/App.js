@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import Navbar from './components/Navbar/Navbar'
-import Main from './components/main'
 import Landing from './components/LandingRedo/LandingRedo'
 import AboutPageRedo from './components/AboutPageRedo/AboutPageRedo'
 import Resume from './components/resume'

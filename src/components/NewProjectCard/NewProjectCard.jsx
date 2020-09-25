@@ -165,7 +165,7 @@ class NewProjectCard extends Component {
                     onMouseEnter={this.toggleBankMouseEnter} onMouseLeave={this.toggleBankMouseLeave} >
                         <div className="inner-part">
                             <label className= 'img'>
-                                <img className='img-1' src={Bankimg}/>
+                                <img className='img-1' src={Bankimg} alt='flatiron virtual bank'/>
                             </label>
                             <div className="content content-1">
                                 {this.renderBankDescription()}
@@ -181,7 +181,7 @@ class NewProjectCard extends Component {
                     onMouseEnter={this.toggleTeamMouesEnter} onMouseLeave={this.toggleTeamMouseLeave}>
                         <div className="inner-part">
                             <label className= 'img'>
-                                <img className='img-1' src={yourteamtimeImg}/>
+                                <img className='img-1' src={yourteamtimeImg} alt='your team`s time' />
                             </label>
                             <div className="content content-1">
                                 {this.renderTeamtimeDescription()}
@@ -196,7 +196,7 @@ class NewProjectCard extends Component {
                     onMouseEnter={this.toggleTicketMouseEnter} onMouseLeave={this.toggleTicketMouseLeave}>
                         <div className="inner-part">
                             <label className= 'img'>
-                                <img className='img-1' src={ticketfinderImg}/>
+                                <img className='img-1' src={ticketfinderImg} alt='ticketfinder'/>
                             </label>
                             <div className="content content-1">
                                 {this.renderTicketfinderDescription()}
