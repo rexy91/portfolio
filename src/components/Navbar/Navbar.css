@@ -91,7 +91,7 @@
 
      /* After clicking the buger, change class to this  */
     .nav-menu.active {
-        background: #fff;
+        background: rgb(29, 27, 27);
         /* shows it, onclick */
         left: 0;
         opacity: 1;
