@@ -4,19 +4,67 @@ import Bankimg from './bank.jpg'
 import yourteamtimeImg from './yourteamtime.jpg'
 import ticketfinderImg from './ticketfinder2.jpg'
 
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 class NewProjectCard extends Component {
     state = {
         bankTechStack: false,
         yourTeamTimeTechStack:false,
-        ticketFinder:false
-
+        ticketFinderStack:false
     }
 
-    toggleBankFlip = () => {
+    componentDidMount(){
+        AOS.init({duration:3000})
+    }
+
+    // grabing element
+    toggleBankMouseEnter = () => {
         this.setState({
-            bankTechStack: !this.state.toggleTechstack
+            bankTechStack: true
         })
     }
+
+    toggleBankMouseLeave = () => {
+        this.setState({
+            bankTechStack: false
+        })
+    }
+
+    toggleTeamMouesEnter = () => {
+        
+        this.setState({
+            yourTeamTimeTechStack: true
+        })
+        
+    }
+    toggleTeamMouseLeave = () => {
+        
+        this.setState({
+            yourTeamTimeTechStack: false
+        })
+        
+    }
+
+    toggleTicketMouseEnter = () => {
+        this.setState({
+            ticketFinderStack: true
+        })
+    }
+
+    toggleTicketMouseLeave = () => {
+        this.setState({
+            ticketFinderStack: false
+        })
+    }
+
+    toggleTickerFlip = () => {
+        
+        this.setState({
+            ticketFinderStack: !this.state.ticketFinderStack
+        })
+    }
+
 
     renderBankDescription = () => {
         if(this.state.bankTechStack === false) {
@@ -51,7 +99,7 @@ class NewProjectCard extends Component {
 
     renderTeamtimeDescription = () => {
 
-        if(this.state.toggleTechstack === false) {
+        if(this.state.yourTeamTimeTechStack === false) {
             return(
                 <div>
                 <h3>Your Team's Time</h3>
@@ -59,7 +107,7 @@ class NewProjectCard extends Component {
                 </div>
             )
         }
-        else if(this.state.toggleTechstack === true){
+        else if(this.state.yourTeamTimeTechStack === true){
                 return(
                     <div className='tech-stack'>
                             <div>
@@ -81,7 +129,7 @@ class NewProjectCard extends Component {
 
     renderTicketfinderDescription = () => {
 
-        if(this.state.toggleTechstack === false) {
+        if(this.state.ticketFinderStack === false) {
             return(
                 <div>
                 <h3>Ticket Finder </h3>
@@ -89,7 +137,8 @@ class NewProjectCard extends Component {
                 </div>
             )
         }
-        else if(this.state.toggleTechstack === true){
+
+        else if(this.state.ticketFinderStack === true){
                 return(
                     <div className='tech-stack'>
                             <div>
@@ -107,46 +156,51 @@ class NewProjectCard extends Component {
     
 
     render() {
-        console.log(this.state.toggleTechstack)
 
         return (
-            <div>
-                    <p id='project-title'>My Projects</p>
-                    <div className="blog-card" id='project1-card' >
+            <div id='project-div'>
+                    <p id='project-title' data-aos='fade-up'>My Projects</p>
+                    <div className="blog-card" id='project1-card' 
+                        data-aos='flip-down'
+                    onMouseEnter={this.toggleBankMouseEnter} onMouseLeave={this.toggleBankMouseLeave} >
                         <div className="inner-part">
                             <label className= 'img'>
                                 <img className='img-1' src={Bankimg}/>
                             </label>
                             <div className="content content-1">
                                 {this.renderBankDescription()}
-                            <button onClick={this.toggleBankFlip} className='project-buttons' type='submit'>{this.state.toggleTechstack ? 'Description' : 'Tech Stack'}</button>
+                            {/* <button onClick={this.toggleBankFlip} className='project-buttons' type='submit'>{this.state.toggleBankFlip ? 'Description' : 'Tech Stack'}</button> */}
                                 <button className='project-buttons' type='submit'>Live Demo</button>
                                 <button className='project-buttons' type='submit'>Github Repo</button>
                             </div>
                         </div>
                     </div>
                     
-                    <div className="blog-card" id='project2-card'>
+                    <div className="blog-card" id='project2-card' 
+                    data-aos='flip-up'
+                    onMouseEnter={this.toggleTeamMouesEnter} onMouseLeave={this.toggleTeamMouseLeave}>
                         <div className="inner-part">
                             <label className= 'img'>
                                 <img className='img-1' src={yourteamtimeImg}/>
                             </label>
                             <div className="content content-1">
                                 {this.renderTeamtimeDescription()}
-                            <button onClick={this.toggleFlip} className='project-buttons' type='submit'>{this.state.toggleTechstack ? 'Description' : 'Tech Stack'}</button>
+                            {/* <button onClick={this.toggleTeamFlip} className='project-buttons' type='submit'>{this.state.toggleTeamFlip ? 'Description' : 'Tech Stack'}</button> */}
                                 <button className='project-buttons' type='submit'>Live Demo</button>
                                 <button className='project-buttons' type='submit'>Github Repo</button>
                             </div>
                         </div>
                     </div>
-                    <div className="blog-card" id='project3-card'>
+                    <div className="blog-card" id='project3-card' 
+                    data-aos='flip-left'
+                    onMouseEnter={this.toggleTicketMouseEnter} onMouseLeave={this.toggleTicketMouseLeave}>
                         <div className="inner-part">
                             <label className= 'img'>
                                 <img className='img-1' src={ticketfinderImg}/>
                             </label>
                             <div className="content content-1">
                                 {this.renderTicketfinderDescription()}
-                            <button onClick={this.toggleFlip} className='project-buttons' type='submit'>{this.state.toggleTechstack ? 'Description' : 'Tech Stack'}</button>
+                            {/* <button onClick={this.toggleFlip} className='project-buttons' type='submit'>{this.state.toggleTickerFlip ? 'Description' : 'Tech Stack'}</button> */}
                                 <button className='project-buttons' type='submit'>Live Demo</button>
                                 <button className='project-buttons' type='submit'>Github Repo</button>
                             </div>

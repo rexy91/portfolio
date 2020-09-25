@@ -1,0 +1,97 @@
+#aboutPage{
+    height: 100vh;
+    background: rgb(247, 245, 240);
+}
+
+.Title{
+    
+    font-weight: 300;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, .5);
+    text-align: center;
+    letter-spacing: 10px;
+    padding: 20px;
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+#bio{
+    margin: 0 20% 0 20%;
+    text-shadow: 2px 5px 2px 10px rgba(92, 89, 89, 0.6);
+    box-shadow: 5px 5px 30px rgba(219, 216, 216, 0.5);
+    border-radius: 10px;
+}
+
+#bio p{
+    padding: 10px;
+    line-height: 30px;
+    font-family: 'Peddana', serif;
+    font-size: 25px ;
+}
+
+#skills{
+    text-align: center;
+}
+#skill-icon-div{
+    text-align: center;
+}
+
+#skill-icon-div img{
+    width: 140px;
+    height: 100px;
+    padding: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .6);
+    border-radius: 40px;
+    margin: 15px 10px 0 5px;
+}
+
+.backend-skills{
+    margin-top: 25px;
+}
+
+#tech-title{
+    font-weight: 300;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, .5);
+    text-align: center;
+    letter-spacing: 10px;
+    padding: 20px;
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+@media screen and (max-width:768px){
+    #bio {
+        margin: 10px;
+    }
+    #bio p{
+        text-align: left;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .Title{
+        font-size: 25px;
+    }
+    #tech-title{
+        font-size: 25px;
+    }
+
+    #skill-icon-div img{
+        width: 80px;
+        height: 65px;
+        padding: 5px;
+        margin-top: 20px;
+    }
+
+    #mongo{
+        padding-left: 0;
+    }
+
+    #postgre{
+        padding-left: 0;
+    }
+
+}

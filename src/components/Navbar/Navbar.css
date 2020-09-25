@@ -1,4 +1,6 @@
 .NavBarItems{
+    opacity: .7;
+    z-index: 1;
     position: fixed;
     width: 100%;
     display: flex;
@@ -8,6 +10,11 @@
     font-size: 50px; 
     background-color: black;
 }
+
+#navbar{
+    transition: top 0.3s;
+}
+
 
 .nav-menu{
     display: grid;

@@ -14,6 +14,7 @@ class Resume extends Component {
         window.open('https://medium.com/@rxye91')
     }
     return(
+      <div id='resume-section'>
         <Grid style={{background:'#FFFAF0'}}>
           <Cell col={4}>
             {/* <div style={{textAlign: 'center'}}>
@@ -87,7 +88,7 @@ class Resume extends Component {
                 <hr style={{borderTop: '3px solid '}} />
           </Cell>
         </Grid>
-
+        </div>
     )
   }
 }

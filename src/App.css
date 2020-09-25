@@ -486,6 +486,8 @@
 }
 
 #blogPage {
+  /* position: relative; */
+  
   margin-top: 4vh;
 }
 
@@ -553,5 +555,42 @@
 @media screen and (max-width:960px){
   #blogPage{
     margin: 10px;
+  }
+}
+
+#getintouch{
+  padding-top: 25px;
+  font-weight: 300;
+  text-shadow: 0 5px 5px rgba(0, 0, 0, .5);
+  text-align: center;
+  letter-spacing: 10px;
+  padding: 20px;
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  font-size: 33px;
+  text-transform: uppercase;
+}
+
+#blog-title{
+  text-align: center;
+  font-weight: 300;
+  text-shadow: 0 5px 5px rgba(0, 0, 0, .5);
+  text-align: center;
+  letter-spacing: 10px;
+  padding: 20px;
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  font-size: 35px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+@media screen and (max-width:768px){
+  #blog-title{
+    font-size: 25px;
+  }
+
+  #getintouch{
+    font-size: 25px;
   }
 }

@@ -6,6 +6,7 @@ import registerServiceWorker from './registerServiceWorker';
 import 'react-mdl/extra/material.css';
 import 'react-mdl/extra/material.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "animate.css/animate.min.css"
 import { BrowserRouter } from 'react-router-dom';
 
 
