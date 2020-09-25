@@ -2,7 +2,16 @@ import React, { Component } from 'react';
 import './LandingRedo.css'
 import ReactTooltip from 'react-tooltip'
 
+
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
+
 class LandingRedo extends Component {
+
+    componentDidMount(){
+        AOS.init({duration:3000})
+    }
     render() {
         return (
             
@@ -11,7 +20,7 @@ class LandingRedo extends Component {
                             <div id='header'>
                                     <h4>Full-Stack Developer</h4>
                             </div>
-                            <p>Passionate about coding and problem solving. <br/>Possess strong skills in collaborating with team and pair-programming.<br/>
+                            <p data-aos='fade-up'  data-aos-delay="500">Passionate about coding and problem solving. <br/>Possess strong skills in collaborating with team and pair-programming.<br/>
                              Seeks opportunities with room to grow.</p>
                     </div>
                     <div className='social-links'>

@@ -76,30 +76,13 @@ export class Blog extends Component {
         const blogsMapper = blogs.map(blog => {
             return <BlogCard singleBlog = {blog} key={blog.id} />
         })
+
+
         return (
-            <div id = 'blogPage'>
+            <div id = 'blogPage' style={{marginTop:'50px'}}>
+                <p id='blog-title'> My Blogs</p>
                 <div className="container-">
                         <div className="row">
-                            {/* <div className="col-md-4 blogCols">
-                                    <h5 onClick = {this.openBlog} name = 'activeRecord'>Active Record Associations</h5>
-                                    <img className = 'border rounded' onClick = {this.openBlog} name = 'activeRecord'src={rails} alt=""/> 
-                            </div>
-                            <div className="col-md-4 blogCols">
-                                    <h5 name = 'callbackFunction' onClick = {this.openBlog} >JavaScript Callback Functions</h5>
-                                    <img className = 'border rounded' name = 'callbackFunction' onClick = {this.openBlog}  src={callback} alt=""/> 
-                            </div>
-                            <div className="col-md-4 blogCols">
-                                    <h5 name = 'gridSystem'  onClick = {this.openBlog} >Bootstrap Grid System</h5>
-                                    <img className = 'border rounded' name = 'gridSystem' onClick = {this.openBlog} src={bootstrap} alt=""/> 
-                            </div>
-                            <div className="col-md-4 blogCols">
-                                    <h5  name = 'binarySearch' onClick = {this.openBlog} > Binary Search Algorithm</h5>
-                                    <img className = 'border rounded' name = 'binarySearch' onClick = {this.openBlog} src={binarysearch} alt=""/> 
-                            </div>
-                            <div className="col-md-4 blogCols">
-                                    <h5  name = 'expressJS' onClick = {this.openBlog} > REST Api with Node/Express.JS</h5>
-                                    <img className = 'border rounded' name = 'expressJS' onClick = {this.openBlog} src={expressJS} alt=""/> 
-                            </div> */}
                             {blogsMapper}
                         </div>
                 </div>

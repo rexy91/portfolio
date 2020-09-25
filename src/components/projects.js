@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card,CardText, CardActions, Button} from 'react-mdl';
 import bank from '../projectPhotos/bank.jpg'
-import yourteamtime from '../projectPhotos/yourteamtime.jpg'
+import yourteamtime from '../components/NewProjectCard/yourteamtime.jpg'
 import ticketfinder2 from '../projectPhotos/ticketfinder2.jpg'
 import {withRouter} from 'react-router-dom'
 
@@ -180,6 +180,7 @@ renderCard2Back = () => {
                                   <h6>React Spreadsheet</h6>
                                   <h6>Sweet Alert</h6>
                                   <h6>JavaScript</h6>
+
                             </div>
                             <div className = 'eight wide column'>
   
@@ -215,7 +216,7 @@ renderCard3Front = () => {
                     <img style={{width:'100%', height:'80%'}}src={ticketfinder2} alt='' ></img>
                     <hr></hr>
                     <CardText style={{textAlign:'center', marginLeft:'4vw'}}>
-                    Built a full-stack application with asynchronous fetches, external API using JavaScript, HTML, and Css. Users can browse upcoming events and add to their personal planner.
+                    Built a  
                     </CardText>
                     <CardActions style={{textAlign:'center',marginTop:'2vh', marginBottom:'-2vh'}}  border>
                                     <Link to ='/'>
