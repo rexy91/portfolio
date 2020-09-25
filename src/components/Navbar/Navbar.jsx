@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Navbar.css'
 import {withRouter} from 'react-router-dom'
-import {Link, animateScroll as scroll} from 'react-scroll'
+import {Link} from 'react-scroll'
 
 class Navbar extends Component {
 
