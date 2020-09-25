@@ -72,7 +72,7 @@
 /* when its moble , change nav bar to verticle  */
 @media screen and (max-width:960px){
     .NavBarItems{
-        position: relative;
+        position: fixed;
     }
     
      /* Before clicking the burger. */
