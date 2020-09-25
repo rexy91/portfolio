@@ -82,17 +82,6 @@ class Navbar extends Component {
                         className='nav-links'
                         style={{color:'white'}}
                         activeClass = 'active'
-                        to='resume-section'
-                        spy={true}
-                        smooth={true}
-                        offset={0}
-                        duration= {500}>
-                            Resume
-                    </Link>
-                    <Link
-                        className='nav-links'
-                        style={{color:'white'}}
-                        activeClass = 'active'
                         to='project-div'
                         spy={true}
                         smooth={true}
