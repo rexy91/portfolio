@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Contact from './contact';
-import NewProjects from './NewProjectsPage/NewProject'
+import NewProjects from '../components/ProjectCardRedo/ProjectCardRedo
 import aboutpage from './aboutpage'
 import Blog from './blogs/Blog'
 import LandingRedo from './LandingRedo/LandingRedo'
