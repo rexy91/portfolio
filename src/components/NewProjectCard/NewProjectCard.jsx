@@ -15,7 +15,6 @@ class NewProjectCard extends Component {
         ticketFinderStack:false
     }
 
-
   openLink = (e) => {
     
     const bankGithub = "https://github.com/rexy91/FlatironVirtualBankfront"
