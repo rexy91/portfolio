@@ -3,6 +3,7 @@ import './NewProjectCard.css'
 import Bankimg from './bank.jpg'
 import yourteamtimeImg from './yourteamtime.jpg'
 import ticketfinderImg from './ticketfinder2.jpg'
+import {withRouter} from 'react-router-dom'
 
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -13,6 +14,36 @@ class NewProjectCard extends Component {
         yourTeamTimeTechStack:false,
         ticketFinderStack:false
     }
+
+
+  openLink = (e) => {
+    
+    const bankGithub = "https://github.com/rexy91/FlatironVirtualBankfront"
+    const bankWebsite = "https://flatironvirtualbank.netlify.com/"
+    const HrGithub = "https://github.com/rexy91/mod4projectHR-frontend"
+    const HrWebsite = "https://yourteamtime.netlify.com/"
+    const ticketfinderGithub = "https://github.com/rexy91/TicketFinderfrontend"
+    const ticketfinderWebsite = "https://ticketfinderfrontend.herokuapp.com/"
+    console.log(e.target.innerText)
+    if(e.target.name === 'bank' && e.target.innerText === 'Github Repo'){
+      window.open(`${bankGithub}`);}
+    else if (e.target.name === 'bank' && e.target.innerText === 'Live Demo')
+    {
+      window.open(`${bankWebsite}`)
+    }
+    else if (e.target.name === 'hr' && e.target.innerText === 'Github Repo'){
+      window.open(`${HrGithub}`)
+    }
+    else if (e.target.name ==='hr' && e.target.innerText === 'Live Demo'){
+      window.open(`${HrWebsite}`)
+    }
+    else if (e.target.name ==='ticketfinder' && e.target.innerText ==='Github Repo'){
+      window.open(`${ticketfinderGithub}`)
+    }
+    else if (e.target.name ==='ticketfinder' && e.target.innerText ==='Live Demo'){
+      window.open(`${ticketfinderWebsite}`)
+    }
+  }
 
     componentDidMount(){
         AOS.init({duration:3000})
@@ -115,7 +146,6 @@ class NewProjectCard extends Component {
                                     <div className='columns'><button>JavaScript</button></div>
                                     <div className='columns'><button>React Spreadsheet</button></div>
                                     <div className='columns'><button>Sweet Alert</button></div>
-
                             </div>
                             <div>
                                     <div className='columns'><button>Ruby On Rails</button></div>
@@ -144,17 +174,20 @@ class NewProjectCard extends Component {
                             <div>
                                     <div className='columns'><button>JavaScript</button></div>
                                     <div className='columns'><button>Ticket Master API</button></div>
+                                    <div></div>
+                                    <div></div>
                             </div>
                             <div>
                                     <div className='columns'><button>Ruby On Rails</button></div>
                                     <div className='columns'><button>PostgreSQL</button></div> 
+                                    <div></div>
+                                    <div></div>
                             </div>
                     </div>
                 )
         }
     }
     
-
     render() {
 
         return (
@@ -162,47 +195,46 @@ class NewProjectCard extends Component {
                     <p id='project-title' data-aos='fade-up'>My Projects</p>
                     <div className="blog-card" id='project1-card' 
                         data-aos='flip-down'
-                    onMouseEnter={this.toggleBankMouseEnter} onMouseLeave={this.toggleBankMouseLeave} >
+                     >
                         <div className="inner-part">
                             <label className= 'img'>
                                 <img className='img-1' src={Bankimg} alt='flatiron virtual bank'/>
                             </label>
-                            <div className="content content-1">
-                                {this.renderBankDescription()}
+                            <div className="content content-1" onMouseEnter={this.toggleBankMouseEnter} onMouseLeave={this.toggleBankMouseLeave}>
+                                {this.renderBankDescription() }
                             {/* <button onClick={this.toggleBankFlip} className='project-buttons' type='submit'>{this.state.toggleBankFlip ? 'Description' : 'Tech Stack'}</button> */}
-                                <button className='project-buttons' type='submit'>Live Demo</button>
-                                <button className='project-buttons' type='submit'>Github Repo</button>
+                                <button className='project-buttons' name='bank' onClick={this.openLink} type='submit'>Live Demo</button>
+                                <button className='project-buttons' name='bank' onClick={this.openLink} type='submit'>Github Repo</button>
                             </div>
                         </div>
                     </div>
                     
                     <div className="blog-card" id='project2-card' 
                     data-aos='flip-up'
-                    onMouseEnter={this.toggleTeamMouesEnter} onMouseLeave={this.toggleTeamMouseLeave}>
+                    >
                         <div className="inner-part">
                             <label className= 'img'>
                                 <img className='img-1' src={yourteamtimeImg} alt='your team`s time' />
                             </label>
-                            <div className="content content-1">
+                            <div className="content content-1" onMouseEnter={this.toggleTeamMouesEnter} onMouseLeave={this.toggleTeamMouseLeave}>
                                 {this.renderTeamtimeDescription()}
                             {/* <button onClick={this.toggleTeamFlip} className='project-buttons' type='submit'>{this.state.toggleTeamFlip ? 'Description' : 'Tech Stack'}</button> */}
-                                <button className='project-buttons' type='submit'>Live Demo</button>
-                                <button className='project-buttons' type='submit'>Github Repo</button>
+                                <button className='project-buttons' name='hr' onClick={this.openLink} type='submit'>Live Demo</button>
+                                <button className='project-buttons' name='hr' onClick={this.openLink} type='submit'>Github Repo</button>
                             </div>
                         </div>
                     </div>
                     <div className="blog-card" id='project3-card' 
                     data-aos='flip-left'
-                    onMouseEnter={this.toggleTicketMouseEnter} onMouseLeave={this.toggleTicketMouseLeave}>
-                        <div className="inner-part">
+                    >
+                        <div className="inner-part" >
                             <label className= 'img'>
                                 <img className='img-1' src={ticketfinderImg} alt='ticketfinder'/>
                             </label>
-                            <div className="content content-1">
+                            <div className="content content-1" onMouseEnter={this.toggleTicketMouseEnter} onMouseLeave={this.toggleTicketMouseLeave}>
                                 {this.renderTicketfinderDescription()}
-                            {/* <button onClick={this.toggleFlip} className='project-buttons' type='submit'>{this.state.toggleTickerFlip ? 'Description' : 'Tech Stack'}</button> */}
-                                <button className='project-buttons' type='submit'>Live Demo</button>
-                                <button className='project-buttons' type='submit'>Github Repo</button>
+                                <button className='project-buttons' name='ticketfinder' onClick={this.openLink} type='submit'>Live Demo</button>
+                                <button className='project-buttons' name='ticketfinder' onClick={this.openLink} type='submit'>Github Repo</button>
                             </div>
                         </div>
                     </div>
@@ -212,4 +244,4 @@ class NewProjectCard extends Component {
     }
 }
 
-export default NewProjectCard;
+export default withRouter(NewProjectCard);
