@@ -25,8 +25,8 @@ class AboutPageRedo extends Component {
                  <img className='skill-icons' src="https://download.logo.wine/logo/Ruby_on_Rails/Ruby_on_Rails-Logo.wine.png" alt=""/>
                  <img className='skill-icons' src="https://cdn.pixabay.com/photo/2015/04/23/17/41/node-js-736399_960_720.png" alt=""/>
                  <img className='skill-icons' src="https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png" alt=""/>
-                 <img id='postgre'style={{paddingLeft:'32px'}}  className='skill-icons' src="https://cdn.iconscout.com/icon/free/png-512/postgresql-11-1175122.png" alt=""/>
-                 <img id='mongo'style={{paddingLeft:'25px'}}  className='skill-icons' src="https://cdn.iconscout.com/icon/free/png-512/mongodb-5-1175140.png" alt=""/>
+                 <img id='postgre'style={{paddingLeft:'15px'}}  className='skill-icons' src="https://cdn.iconscout.com/icon/free/png-512/postgresql-11-1175122.png" alt=""/>
+                 <img id='mongo'style={{paddingLeft:'15px'}}  className='skill-icons' src="https://cdn.iconscout.com/icon/free/png-512/mongodb-5-1175140.png" alt=""/>
                  </div>
                  </div>
             </div>  
