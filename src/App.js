@@ -16,7 +16,6 @@ class App extends Component {
         <Navbar/>
         <Landing/>
         <AboutPageRedo/>
-        <Resume/>
         <Project/>
         <Blog/>
         <Contact/>
