@@ -10,7 +10,10 @@ class AboutPageRedo extends Component {
                         <span id='aboutTitle'><span id='about'> About  </span><span id='me' >Me</span></span>
                 </div>
                 <div id='bio'>
-                <p>Full-stack developer based in New York City. I have a passion for building full-stack responsive web applications. Experienced in Ruby on Rails, JavaScript, React and Redux based programming and a background in computer science. Pursued a Bachelor of Science degree in Computer Science, and a recent graduate of Flatiron School for the full-stack web development program.</p>
+                <p>Full-stack developer based in New York City. I have a passion for building full-stack 
+                    responsive web applications, with a strong desire to learn about new technologies. Experienced in Ruby on Rails, JavaScript, 
+                    React and Redux based programming.
+                    Pursued a Bachelor of Science degree in Computer Science, and completed a full-stack development program at Flatiron School.</p>
                 </div>
             <div id='skills'>
                  <p id='tech-title'>Tech Skills</p>
