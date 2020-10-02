@@ -34,6 +34,7 @@ class Navbar extends Component {
         this.setState({
             clicked: !this.state.clicked
         })
+
         e.preventDefault() // Prevent Anchor Tag from refreshing
         
         this.props.history.push(`/${e.target.innerText}`)
@@ -64,6 +65,7 @@ class Navbar extends Component {
                         <i className={this.state.clicked? 'fas fa-times' : 'fas fa-bars'}> </i>
                     </div>
 
+
                     {/* To close the side bar menu on mobile, all you gotta do is just change the state. */}
                     <ul className={this.state.clicked? 'nav-menu active' : 'nav-menu'}>
 
@@ -86,6 +88,7 @@ class Navbar extends Component {
                         spy={true}
                         smooth={true}
                         offset={0}
+                        onClick={this.handleClick}
                         duration= {500}>
                             Resume
                     </Link>
@@ -97,6 +100,7 @@ class Navbar extends Component {
                         spy={true}
                         smooth={true}
                         offset={0}
+                        onClick={this.handleClick}
                         duration= {500}>
                             Projects
                     </Link>
@@ -105,6 +109,7 @@ class Navbar extends Component {
                         style={{color:'white'}}
                         activeClass = 'active'
                         to='blogPage'
+                        onClick={this.handleClick}
                         spy={true}
                         smooth={true}
                         offset={0}
@@ -117,6 +122,7 @@ class Navbar extends Component {
                         style={{color:'white'}}
                         activeClass = 'active'
                         to='contactformdiv'
+                        onClick={this.handleClick}
                         spy={true}
                         smooth={true}
                         offset={0}

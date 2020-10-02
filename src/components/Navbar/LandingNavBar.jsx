@@ -26,7 +26,6 @@ class LandingNavBar extends Component {
     }
     
     handleLogoClick = (e) => {
-        console.log('dfsf')
         this.props.history.push('/') 
     }
     render() {
