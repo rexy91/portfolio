@@ -71,6 +71,7 @@ class Navbar extends Component {
                         className='nav-links'
                         style={{color:'white'}}
                         activeClass = 'active'
+                        onClick={this.handleClick}
                         to='aboutPage'
                         spy={true}
                         smooth={true}
@@ -82,6 +83,7 @@ class Navbar extends Component {
                         className='nav-links'
                         style={{color:'white'}}
                         activeClass = 'active'
+                        onClick={this.handleClick}
                         to='project-div'
                         spy={true}
                         smooth={true}
@@ -96,6 +98,7 @@ class Navbar extends Component {
                         to='blogPage'
                         spy={true}
                         smooth={true}
+                        onClick={this.handleClick}
                         offset={0}
                         duration= {500}>
                             Blogs
@@ -106,6 +109,7 @@ class Navbar extends Component {
                         style={{color:'white'}}
                         activeClass = 'active'
                         to='contactformdiv'
+                        onClick={this.handleClick}
                         spy={true}
                         smooth={true}
                         offset={0}
