@@ -31,22 +31,22 @@ class LandingNavBar extends Component {
     }
     render() {
         return (
-            <nav className='NavBarItems'>
-                    <h3 className='navbar-logo' onClick={this.handleLogoClick} >Yu Hao(Rex) Ye</h3>
-                    <div className='menu-icon' onClick = {this.handleClick}>
-                        {/* Burger on and off  */}
-                        <i className={this.state.clicked? 'fas fa-times' : 'fas fa-bars'}> </i>
-                    </div>
+            // <nav className='NavBarItems'>
+            //         <h3 className='navbar-logo' onClick={this.handleLogoClick} >Yu Hao(Rex) Ye</h3>
+            //         <div className='menu-icon' onClick = {this.handleClick}>
+            //             {/* Burger on and off  */}
+            //             <i className={this.state.clicked? 'fas fa-times' : 'fas fa-bars'}> </i>
+            //         </div>
 
-                    <ul className={this.state.clicked? 'nav-menu active' : 'nav-menu'}>
-                        {/* To close the side bar menu on moble, all you gotta do is just change the state. */}
-                        <li><a className='nav-links' href='' onClick={this.handleNavItemsClick}>About</a></li>
-                        <li><a className='nav-links' href='' onClick={this.handleNavItemsClick}>Resume</a></li>
-                        <li><a className='nav-links' href='' onClick={this.handleNavItemsClick}>Projects</a></li>
-                        <li><a className='nav-links' href='' onClick={this.handleNavItemsClick}>Blogs</a></li>
-                        <li><a className='nav-links' href='' onClick={this.handleNavItemsClick}>Contact</a></li>
-                    </ul>
-            </nav>           
+            //         <ul className={this.state.clicked? 'nav-menu active' : 'nav-menu'}>
+            //             {/* To close the side bar menu on moble, all you gotta do is just change the state. */}
+            //             <li><a className='nav-links' href='' onClick={this.handleNavItemsClick}>About</a></li>
+            //             <li><a className='nav-links' href='' onClick={this.handleNavItemsClick}>Resume</a></li>
+            //             <li><a className='nav-links' href='' onClick={this.handleNavItemsClick}>Projects</a></li>
+            //             <li><a className='nav-links' href='' onClick={this.handleNavItemsClick}>Blogs</a></li>
+            //             <li><a className='nav-links' href='' onClick={this.handleNavItemsClick}>Contact</a></li>
+            //         </ul>
+            // </nav>           
         )
     }
 }
