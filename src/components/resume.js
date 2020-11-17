@@ -40,31 +40,48 @@ class Resume extends Component {
           </Cell>
           <Cell className="resume-right-col" col={8}>
               <h2>Skills</h2>
-              <p style = {{fontSize:'17px'}}>React, Redux, JavaScript, Rails, Ruby, Node.JS, Express.JS, Css, Bootstrap, PostgreSQL, MangoDB, Python.</p>
+              <p className='skill-sections'>Frontend(Proficient):</p>
+              <p style = {{fontSize:'17px'}}>React, Redux, JavaScript, HTML, CSS</p>
+              <p className='skill-sections'>Backend(Proficient):</p>
+              <p style = {{fontSize:'17px'}}>Ruby on Rails, Ruby, NodeJS, ExpressJS, RESTful API, Postgresql, Mysql, Databases.</p>
+              <p className='skill-sections'>Familiar:</p>
+              <p style = {{fontSize:'17px'}}>React Native, Python, Django, MangoDB, Nosql, Jest, RSpec, Agile Software Development, AWS.</p>
               <hr style={{borderTop: '3px solid '}} />
               <h2>Experience</h2>
 
+              <Experience
+              startYear={"11 / 2019"}
+              endYear={"Present"}
+              jobName="Self-Employed"
+              position="Full-Stack Developer"
+              descriptionLine1 = "Plan and engineer RESTful web services to manipulate dynamic datasets."
+              descriptionLine2 = "Create dynamic and interactive websites that ensure high traffic, page views and User Experience."
+              descriptionLine3 = "Develop user interface using React, Redux, HTML5, CSS and perform client-side validations using Ruby on Rails."
+              descriptionLine4 = "Follow software development life cycle to design, implement, test, deploy and maintain applications."
+              />
+              
               <Experience
               startYear={"05 / 2018"}
               endYear={"Present"}
               jobName="Billboard Real Estate"
               position="Desktop Support"
-              descriptionLine1 = "Maintained computer hardware and software on desktops to keep versions current."
-              descriptionLine2 = "Monitored the performance of the computer systems and address issues."
-              descriptionLine3 = "Tested software performance throughout the desktop network."
+              descriptionLine1 = "Provide support for users consisted of 75% desktop support and 25% server support."
+              descriptionLine2 = "Monitor the performance of over 20 computer systems to identify and solve problems for end users."
+              descriptionLine3 = "Troubleshoot and resolve system related issues in real-time to minimize operational down time."
+              descriptionLine4 = "Solve ~50 weekly tickets by providing timely support for hardware, software and network-related issues."
               />
               <Experience
                 startYear={"02 / 2016"}
                 endYear={"01 / 2018"}
-                jobName="A.A Mechanical HVAC"
-                position="Data Entry"
-                descriptionLine1="Researched on HVAC products specs and provide submittals for projects"
-                descriptionLine2="Maintained a database by entering new and updated customer and account info."
+                jobName="FeiTang Group Inc"
+                position="Shipping Manager"
+                descriptionLine1="Handled 100-200 orders on a daily basis, including receipt, fulfillment, and shipment for affluent clients."
+                descriptionLine2="Maintained a database with more than 1000 accounts using Excel to ensure clients’ information accuracy."
                 descriptionLine3='Reviewed work orders and accurately input data into company database.'
-                descriptionLine4='Flagged accounts needing additional services and routed this information to appropriate teams to prevent service delays.'
+                descriptionLine4='Increased company’s website page views by 60% by participating in wireframe and user stories design.'
                 />
               <Experience
-                startYear={"01 / 2014"}
+                startYear={"01 / 2013"}
                 endYear={"12 / 2015"}
                 jobName="101 Phone Store"
                 position="Retail Sales Consultant"
