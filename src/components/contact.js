@@ -16,7 +16,6 @@ export class contact extends Component {
       <textarea id="message" name="message" placeholder='your message ' style= {{height:'200px'}}></textarea>
       <div data-netlify-recaptcha="true"></div>
       <input type='submit' value='Send Now'/>
-
       </form>
 	  </div>
     )

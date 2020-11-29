@@ -18,11 +18,15 @@ class LandingRedo extends Component {
             <div className='landing-page' id='main'>
                     <div className='main-page-content'> 
                             <div id='header'>
-                                    <h4>Full-Stack Developer</h4>
                             </div>
-                            <p data-aos='fade-up'  data-aos-delay="500">Passionate about coding and problem solving. <br/>Possess strong skills in collaborating with team and pair-programming.<br/>
-                             Seeks opportunities with room to grow.</p>
+                            <p data-aos='fade-up'  data-aos-delay="500">Hello World, I'm <span style={{color:'#FF1493'}}><strong>Rex Ye.</strong></span>
+                            <br/>
+                                I'm a full-stack web developer.
+                            {/* <br/>Possess strong skills in collaborating with team and pair-programming.<br/>
+                             Seeks opportunities with room to grow. */}
+                             </p>
                     </div>
+
                     <div className='social-links'>
                             {/* LinkedIn */}
                             <a href="https://www.linkedin.com/in/rex-ye-b58703193/" rel="noopener noreferrer" target="_blank">
