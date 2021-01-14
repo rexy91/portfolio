@@ -1,0 +1,22 @@
+#new-about-div{
+    margin-top: 5vh;
+    height: 100vh;
+    /* background-image: url('https://wallup.net/wp-content/uploads/2017/03/29/492404-js-programming_language-programming-JavaScript-748x421.png'); */
+    /* background-color: black; */
+    background-size: cover;
+}
+
+
+.bio-div{
+    width: 50%;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.skills-div{
+    text-align: center;
+    /* justify-content: space-around; */
+}

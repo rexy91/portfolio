@@ -19,11 +19,10 @@ class LandingRedo extends Component {
                     <div className='main-page-content'> 
                             <div id='header'>
                             </div>
+                            {/* <p data-aos='fade-up'  data-aos-delay="500">Hello World, I'm <span style={{color:'#FF1493'}}><strong>Rex Ye.</strong></span> */}
                             <p data-aos='fade-up'  data-aos-delay="500">Hello World, I'm <span style={{color:'#FF1493'}}><strong>Rex Ye.</strong></span>
                             <br/>
-                                I'm a full-stack web developer.
-                            {/* <br/>Possess strong skills in collaborating with team and pair-programming.<br/>
-                             Seeks opportunities with room to grow. */}
+                            <span id='second-paragraph'>Full-stack developer that loves solving problems.</span>
                              </p>
                     </div>
 

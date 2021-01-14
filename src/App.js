@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import Navbar from './components/Navbar/Navbar'
 import Landing from './components/LandingRedo/LandingRedo'
-import AboutPageRedo from './components/AboutPageRedo/AboutPageRedo'
+// import AboutPageRedo from './components/AboutPageRedo/AboutPageRedo'
+import NewAboutPage from './components/NewAboutPage/NewAboutPage'
 import Resume from './components/resume'
 import Project from './components/NewProjectCard/NewProjectCard'
 import Contact from './components/contact'
@@ -15,7 +16,8 @@ class App extends Component {
       <div>
         <Navbar/>
         <Landing/>
-        <AboutPageRedo/>
+        {/* <AboutPageRedo/> */}
+        <NewAboutPage/>
         <Resume/>
         <Project/>
         <Blog/>

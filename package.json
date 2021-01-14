@@ -5,17 +5,18 @@
   "dependencies": {
     "animate.css": "^4.1.1",
     "aos": "^2.3.4",
-    "bootstrap": "^4.4.1",
-    "jquery": "^3.4.1",
-    "react": "^16.2.0",
+    "bootstrap": "^4.5.3",
+    "framer-motion": "^2.9.4",
+    "jquery": "^3.5.1",
+    "react": "^17.0.1",
     "react-animate-on-scroll": "^2.1.5",
-    "react-bootstrap": "^1.0.0",
+    "react-bootstrap": "^1.4.0",
     "react-dom": "^16.13.0",
     "react-mdl": "^1.11.0",
     "react-medium-image-zoom": "^4.3.0",
     "react-router": "^5.2.0",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.0",
+    "react-scripts": "^4.0.1",
     "react-scroll": "^1.8.1",
     "react-tooltip": "^4.1.2",
     "react-transition-group": "^4.3.0",
@@ -26,5 +27,17 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
